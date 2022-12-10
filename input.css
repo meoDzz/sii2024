@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.SII2024-topMenu-expanded {
+  @apply absolute z-[5000] text-center bg-slate-300 tiny:mt-48 sm:mt-48 p-2 w-full;
+}
+
+.SII2024-topMenu-mobile {
+}
+.SII2024-top-menu-item {
+  @apply cursor-pointer sm:gap-0.5 hover:text-dark-hover relative after:lg:absolute after:lg:bottom-[-10px]
+  after:lg:left-0 after:lg:bg-dark-hover after:lg:h-1 after:w-0 hover:after:lg:w-full 
+  after:lg:-translate-y-1/4 after:lg:ease-in-out after:lg:duration-300;
+}
+.SII2024-read-more-item {
+  @apply after:absolute after:bottom-2 after:left-0 after:bg-dark-hover hover:after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:ease-in-out after:duration-300;
+}
+
+html,body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.toggleMenu{
+    //position: relative;
+    top: 20;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.News-class {
+  max-width: 80%;
+  height: 400px;
+  background-color: white;
+  margin: 10px auto;
+}
+
+.content {
+  /* width: 300px !important; */
+  height: 250px;
+  text-align: left;
+  border: 1px solid;
+  margin-top: 30px;
+  border: none;
+  /* color: rgb(150, 8, 8); */
+}
+.contentSponsor {
+  /* width: 300px !important; */
+  height: 30px;
+  text-align: center;
+  border: 1px solid;
+  margin-top: 10;
+  border: none;
+  
+  /* color: rgb(150, 8, 8); */
+}
+/* .SII2024-top-menu-icon {
+  @apply inline-block;
+}
+
+.SII2024-top-menu-icon img {
+  max-width: 16px;
+  width: 16px;
+  height: auto;
+  inline: inline-block;
+} */
+
+/*SII2024-topMenu-expanded for mobile */
+/* @apply absolute top-10 z-50 w-full text-right bg-white; */
+
+.map-responsive{
+
+  overflow:hidden;
+
+  padding-bottom:56.25%;
+
+  position:relative;
+
+  height:0;
+
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  z-index:0;
+  position:absolute;
+}
+
+.slick-slider .slick-prev, .slick-next
+{
+  display:none;
+}
+
+
+.animate-charcter {
+  text-transform: uppercase;
+  font:font-Karla;
+  font-weight: 800;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #f2fa04 49%,
+    #ff1361 79%,
+    #231557 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  transition: transform 250ms;
+}
+
+.animate-charcter:hover {
+  transform: translateY(5px) translateX(5px);
+  zoom: 1.05;
+  cursor: pointer;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.downloadCFP{
+  color: #b91818;
+  background-color: rgb(107, 166, 255);
+  border-color: rgb(107, 166, 255);
+  border-spacing: 10mm;
+  border-radius: 10mm;
+  border-width: 1mm;
+  border-left-width: 10mm;
+  border-right-width: 10mm;
+}
+.animate-downloadCFP:hover{
+  zoom: 1.2;
+  cursor: pointer;
+  transition: transform 500ms;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 5px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #090989; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 7px; /* Some padding */
+  border-radius: 5px; /* Rounded corners */
+  //font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #57577b; /* Add a dark-grey background on hover */
+  transition: transform 1000ms;
+}
+.navStatic {
+  overflow: hidden;
+  background-color: #c4cddc;
+  position: relative; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #c4cddc;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  display: block;
+  text-align: right;
+  /* padding: 6px 6px; */
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar {
+  z-index: 5000;
+}
+/* Change background on mouse-over */
+
+
+/* Main content */
+.mainCont {
+  margin-top: 50px; /* Add a top margin to avoid content overlay */
+}
+
+
+
+.smallScreenText{
+  margin-left : 10px;
+  margin-right : 10px;
+  font-size: 14px;
+}
+.smallScreenHeader{
+  flex-basic: 70%;
+}
+.textFooterMd{
+  font-size:14px;
+}
