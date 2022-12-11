@@ -20,13 +20,18 @@
   @apply after:absolute after:bottom-2 after:left-0 after:bg-dark-hover hover:after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:ease-in-out after:duration-300;
 }
 
+.SII2024-size-commitee-Image{
+  /* @apply tiny:w-[6.5rem] tiny:h-[9rem] md:w-[11rem] md:h-[16rem] */
+  @apply tiny:w-[50%] sm:w-[70%] md:w-[90%]
+}
+
 html,body{
   max-width: 100%;
   overflow-x: hidden;
 }
 
 .toggleMenu{
-    //position: relative;
+    /* position: relative; */
     top: 20;
     left: 0;
     flex-direction: column;
@@ -168,7 +173,7 @@ html,body{
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 7px; /* Some padding */
   border-radius: 5px; /* Rounded corners */
-  //font-size: 18px; /* Increase font size */
+  /* font-size: 18px; Increase font size */
 }
 
 #myBtn:hover {
