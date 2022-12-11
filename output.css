@@ -1252,13 +1252,60 @@ video {
 
 @media (min-width: 644px){
   .SII2024-size-commitee-Image{
-    width: 70%;
+    width: 65%;
   }
 }
 
 @media (min-width: 768px){
   .SII2024-size-commitee-Image{
-    width: 90%;
+    width: 75%;
+  }
+}
+
+.SII2024-text-commitee-Name{
+  /* @apply tiny:w-[6.5rem] tiny:h-[9rem] md:w-[11rem] md:h-[16rem] */
+  margin-top: 0.25rem;
+  font-weight: 600
+}
+
+@media (min-width: 310px){
+  .SII2024-text-commitee-Name{
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px){
+  .SII2024-text-commitee-Name{
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px){
+  .SII2024-text-commitee-Name{
+    font-size: 21px;
+  }
+}
+
+.SII2024-text-commitee-University{
+  /* @apply tiny:w-[6.5rem] tiny:h-[9rem] md:w-[11rem] md:h-[16rem] */
+  text-align: left
+}
+
+@media (min-width: 310px){
+  .SII2024-text-commitee-University{
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px){
+  .SII2024-text-commitee-University{
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px){
+  .SII2024-text-commitee-University{
+    font-size: 18px;
   }
 }
 
@@ -1268,7 +1315,7 @@ html,body{
 }
 
 .toggleMenu{
-  //position: relative;
+  /* position: relative; */
   top: 20;
   left: 0;
   flex-direction: column;
@@ -1426,8 +1473,7 @@ html,body{
   /* Some padding */
   border-radius: 5px;
   /* Rounded corners */
-  //font-size: 18px;
-  /* Increase font size */
+  /* font-size: 18px; Increase font size */
 }
 
 #myBtn:hover {
@@ -1815,12 +1861,8 @@ html,body{
     font-size: 9px;
   }
 
-  .tiny\:text-\[18px\]{
-    font-size: 18px;
-  }
-
-  .tiny\:text-\[14px\]{
-    font-size: 14px;
+  .tiny\:text-\[16px\]{
+    font-size: 16px;
   }
 }
 
@@ -1849,8 +1891,8 @@ html,body{
     width: 1.75rem;
   }
 
-  .sm\:w-\[70\%\]{
-    width: 70%;
+  .sm\:w-\[65\%\]{
+    width: 65%;
   }
 
   .sm\:scale-\[0\.8\]{
@@ -1952,8 +1994,8 @@ html,body{
     width: 11rem;
   }
 
-  .md\:w-\[90\%\]{
-    width: 90%;
+  .md\:w-\[75\%\]{
+    width: 75%;
   }
 
   .md\:justify-center{
@@ -2000,20 +2042,16 @@ html,body{
     font-size: 14px;
   }
 
+  .md\:text-\[23px\]{
+    font-size: 23px;
+  }
+
   .md\:text-\[20px\]{
     font-size: 20px;
   }
 
   .md\:text-\[25px\]{
     font-size: 25px;
-  }
-
-  .md\:text-\[24px\]{
-    font-size: 24px;
-  }
-
-  .md\:text-\[23px\]{
-    font-size: 23px;
   }
 
   .md\:text-\[16px\]{
@@ -2082,10 +2120,6 @@ html,body{
 
   .lg\:text-\[16px\]{
     font-size: 16px;
-  }
-
-  .lg\:text-\[23px\]{
-    font-size: 23px;
   }
 
   .lg\:text-\[21px\]{
