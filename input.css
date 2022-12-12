@@ -40,6 +40,30 @@ html,body{
   overflow-x: hidden;
 }
 
+.animate-Download {
+  font:font-Karla;
+  font-weight: 700;
+  background-image: linear-gradient(
+    -90deg,
+    #cf0c0c 0%,
+
+    #0a2a27 49%,
+
+    #cf0c0c 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  transition: transform 250ms;
+}
+
 .toggleMenu{
     /* position: relative; */
     top: 20;
