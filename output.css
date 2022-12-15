@@ -656,6 +656,18 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.ml-5{
+  margin-left: 1.25rem;
+}
+
+.ml-2{
+  margin-left: 0.5rem;
+}
+
+.ml-4{
+  margin-left: 1rem;
+}
+
 .block{
   display: block;
 }
@@ -1050,6 +1062,10 @@ video {
 
 .leading-7{
   line-height: 1.75rem;
+}
+
+.leading-5{
+  line-height: 1.25rem;
 }
 
 .tracking-widest{
@@ -1772,6 +1788,11 @@ html,body{
     margin-right: 1.25rem;
   }
 
+  .tiny\:mx-2{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
   .tiny\:mt-48{
     margin-top: 12rem;
   }
@@ -1856,6 +1877,14 @@ html,body{
     justify-content: center;
   }
 
+  .tiny\:gap-5{
+    gap: 1.25rem;
+  }
+
+  .tiny\:gap-1{
+    gap: 0.25rem;
+  }
+
   .tiny\:rounded-\[5px\]{
     border-radius: 5px;
   }
@@ -1889,8 +1918,27 @@ html,body{
     padding-right: 0.75rem;
   }
 
+  .tiny\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .tiny\:px-7{
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+
+  .tiny\:py-2{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
   .tiny\:text-center{
     text-align: center;
+  }
+
+  .tiny\:indent-5{
+    text-indent: 1.25rem;
   }
 
   .tiny\:text-\[10px\]{
@@ -1915,6 +1963,10 @@ html,body{
 
   .tiny\:text-\[16px\]{
     font-size: 16px;
+  }
+
+  .tiny\:text-\[17px\]{
+    font-size: 17px;
   }
 }
 
@@ -2026,6 +2078,10 @@ html,body{
   .sm\:text-\[16px\]{
     font-size: 16px;
   }
+
+  .sm\:text-\[19px\]{
+    font-size: 19px;
+  }
 }
 
 @media (min-width: 768px){
@@ -2088,12 +2144,16 @@ html,body{
     gap: 1.25rem;
   }
 
-  .md\:rounded-\[10px\]{
-    border-radius: 10px;
+  .md\:gap-20{
+    gap: 5rem;
   }
 
   .md\:rounded-\[14px\]{
     border-radius: 14px;
+  }
+
+  .md\:rounded-\[10px\]{
+    border-radius: 10px;
   }
 
   .md\:p-5{
@@ -2122,6 +2182,20 @@ html,body{
   .md\:px-60{
     padding-left: 15rem;
     padding-right: 15rem;
+  }
+
+  .md\:px-32{
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .md\:px-24{
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .md\:indent-0{
+    text-indent: 0px;
   }
 
   .md\:text-\[15px\]{
