@@ -652,20 +652,16 @@ video {
   margin-top: 1rem;
 }
 
-.mb-3{
-  margin-bottom: 0.75rem;
+.ml-2{
+  margin-left: 0.5rem;
 }
 
 .ml-5{
   margin-left: 1.25rem;
 }
 
-.ml-2{
-  margin-left: 0.5rem;
-}
-
-.ml-4{
-  margin-left: 1rem;
+.mb-3{
+  margin-bottom: 0.75rem;
 }
 
 .block{
@@ -832,10 +828,6 @@ video {
   gap: 1.25rem;
 }
 
-.gap-20{
-  gap: 5rem;
-}
-
 .space-y-4 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
@@ -950,16 +942,6 @@ video {
 .px-1{
   padding-left: 0.25rem;
   padding-right: 0.25rem;
-}
-
-.px-20{
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
-.px-32{
-  padding-left: 8rem;
-  padding-right: 8rem;
 }
 
 .py-3{
@@ -1913,16 +1895,6 @@ html,body{
     padding-bottom: 0.25rem;
   }
 
-  .tiny\:px-3{
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-  }
-
-  .tiny\:px-4{
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
   .tiny\:px-7{
     padding-left: 1.75rem;
     padding-right: 1.75rem;
@@ -1933,12 +1905,13 @@ html,body{
     padding-bottom: 0.5rem;
   }
 
-  .tiny\:text-center{
-    text-align: center;
+  .tiny\:px-3{
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 
-  .tiny\:indent-5{
-    text-indent: 1.25rem;
+  .tiny\:text-center{
+    text-align: center;
   }
 
   .tiny\:text-\[10px\]{
@@ -1961,12 +1934,12 @@ html,body{
     font-size: 9px;
   }
 
-  .tiny\:text-\[16px\]{
-    font-size: 16px;
-  }
-
   .tiny\:text-\[17px\]{
     font-size: 17px;
+  }
+
+  .tiny\:text-\[16px\]{
+    font-size: 16px;
   }
 }
 
@@ -2071,12 +2044,12 @@ html,body{
     font-size: 12px;
   }
 
-  .sm\:text-\[20px\]{
-    font-size: 20px;
-  }
-
   .sm\:text-\[16px\]{
     font-size: 16px;
+  }
+
+  .sm\:text-\[20px\]{
+    font-size: 20px;
   }
 
   .sm\:text-\[19px\]{
@@ -2179,23 +2152,9 @@ html,body{
     padding-right: 5rem;
   }
 
-  .md\:px-60{
-    padding-left: 15rem;
-    padding-right: 15rem;
-  }
-
-  .md\:px-32{
-    padding-left: 8rem;
-    padding-right: 8rem;
-  }
-
   .md\:px-24{
     padding-left: 6rem;
     padding-right: 6rem;
-  }
-
-  .md\:indent-0{
-    text-indent: 0px;
   }
 
   .md\:text-\[15px\]{
