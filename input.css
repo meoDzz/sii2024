@@ -35,6 +35,12 @@
   @apply tiny:text-[15px] md:text-[16px] lg:text-[18px] text-left
 }
 
+.SII2024-size-HostUni-Image{
+  /* @apply tiny:w-[6.5rem] tiny:h-[9rem] md:w-[11rem] md:h-[16rem] */
+  @apply tiny:w-[15%] sm:w-[7%] md:w-[10%]
+}
+
+
 html,body{
   max-width: 100%;
   overflow-x: hidden;
