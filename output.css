@@ -752,10 +752,6 @@ video {
   width: 33.333333%;
 }
 
-.w-5{
-  width: 1.25rem;
-}
-
 .max-w-full{
   max-width: 100%;
 }
@@ -1120,6 +1116,11 @@ video {
 .text-gray-900{
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.text-blue-800{
+  --tw-text-opacity: 1;
+  color: rgb(30 64 175 / var(--tw-text-opacity));
 }
 
 .underline{
@@ -1817,6 +1818,10 @@ html,body{
     height: 0.75rem;
   }
 
+  .tiny\:h-5{
+    height: 1.25rem;
+  }
+
   .tiny\:h-7{
     height: 1.75rem;
   }
@@ -1837,8 +1842,16 @@ html,body{
     width: 45%;
   }
 
+  .tiny\:w-5{
+    width: 1.25rem;
+  }
+
   .tiny\:w-\[50\%\]{
     width: 50%;
+  }
+
+  .tiny\:w-10{
+    width: 2.5rem;
   }
 
   .tiny\:w-\[20\%\]{
@@ -1859,14 +1872,6 @@ html,body{
 
   .tiny\:w-\[15\%\]{
     width: 15%;
-  }
-
-  .tiny\:w-5{
-    width: 1.25rem;
-  }
-
-  .tiny\:w-10{
-    width: 2.5rem;
   }
 
   .tiny\:basis-4\/6{
@@ -2006,6 +2011,10 @@ html,body{
     width: 75%;
   }
 
+  .sm\:w-20{
+    width: 5rem;
+  }
+
   .sm\:w-\[10\%\]{
     width: 10%;
   }
@@ -2026,10 +2035,6 @@ html,body{
     width: 7%;
   }
 
-  .sm\:w-20{
-    width: 5rem;
-  }
-
   .sm\:scale-\[0\.8\]{
     --tw-scale-x: 0.8;
     --tw-scale-y: 0.8;
@@ -2039,12 +2044,6 @@ html,body{
   .sm\:scale-\[0\.7\]{
     --tw-scale-x: 0.7;
     --tw-scale-y: 0.7;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .sm\:scale-\[0\.1\]{
-    --tw-scale-x: 0.1;
-    --tw-scale-y: 0.1;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
@@ -2133,6 +2132,10 @@ html,body{
     height: 1.25rem;
   }
 
+  .md\:h-8{
+    height: 2rem;
+  }
+
   .md\:h-10{
     height: 2.5rem;
   }
@@ -2141,12 +2144,20 @@ html,body{
     height: 16rem;
   }
 
+  .md\:h-12{
+    height: 3rem;
+  }
+
   .md\:w-5{
     width: 1.25rem;
   }
 
   .md\:w-\[27\%\]{
     width: 27%;
+  }
+
+  .md\:w-8{
+    width: 2rem;
   }
 
   .md\:w-\[12\%\]{
@@ -2167,6 +2178,10 @@ html,body{
 
   .md\:w-\[10\%\]{
     width: 10%;
+  }
+
+  .md\:w-12{
+    width: 3rem;
   }
 
   .md\:justify-center{
@@ -2262,10 +2277,6 @@ html,body{
 
   .lg\:hidden{
     display: none;
-  }
-
-  .lg\:w-20{
-    width: 5rem;
   }
 
   .lg\:basis-2\/6{
