@@ -616,6 +616,14 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
+}
+
 .mb-20{
   margin-bottom: 5rem;
 }
@@ -630,14 +638,6 @@ video {
 
 .mt-24{
   margin-top: 6rem;
-}
-
-.mb-5{
-  margin-bottom: 1.25rem;
-}
-
-.mt-10{
-  margin-top: 2.5rem;
 }
 
 .mt-1{
@@ -1046,6 +1046,10 @@ video {
   text-transform: uppercase;
 }
 
+.capitalize{
+  text-transform: capitalize;
+}
+
 .leading-7{
   line-height: 1.75rem;
 }
@@ -1066,6 +1070,11 @@ video {
 .text-gray-700{
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.text-blue-800{
+  --tw-text-opacity: 1;
+  color: rgb(30 64 175 / var(--tw-text-opacity));
 }
 
 .text-yellow-700{
@@ -1116,11 +1125,6 @@ video {
 .text-gray-900{
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
-}
-
-.text-blue-800{
-  --tw-text-opacity: 1;
-  color: rgb(30 64 175 / var(--tw-text-opacity));
 }
 
 .underline{
@@ -1818,16 +1822,12 @@ html,body{
     height: 0.75rem;
   }
 
-  .tiny\:h-5{
-    height: 1.25rem;
+  .tiny\:h-8{
+    height: 2rem;
   }
 
   .tiny\:h-7{
     height: 1.75rem;
-  }
-
-  .tiny\:h-8{
-    height: 2rem;
   }
 
   .tiny\:h-\[9rem\]{
@@ -1842,8 +1842,8 @@ html,body{
     width: 45%;
   }
 
-  .tiny\:w-5{
-    width: 1.25rem;
+  .tiny\:w-8{
+    width: 2rem;
   }
 
   .tiny\:w-\[50\%\]{
@@ -1860,10 +1860,6 @@ html,body{
 
   .tiny\:w-7{
     width: 1.75rem;
-  }
-
-  .tiny\:w-8{
-    width: 2rem;
   }
 
   .tiny\:w-\[6\.5rem\]{
@@ -2132,8 +2128,8 @@ html,body{
     height: 1.25rem;
   }
 
-  .md\:h-8{
-    height: 2rem;
+  .md\:h-12{
+    height: 3rem;
   }
 
   .md\:h-10{
@@ -2144,10 +2140,6 @@ html,body{
     height: 16rem;
   }
 
-  .md\:h-12{
-    height: 3rem;
-  }
-
   .md\:w-5{
     width: 1.25rem;
   }
@@ -2156,8 +2148,8 @@ html,body{
     width: 27%;
   }
 
-  .md\:w-8{
-    width: 2rem;
+  .md\:w-12{
+    width: 3rem;
   }
 
   .md\:w-\[12\%\]{
@@ -2178,10 +2170,6 @@ html,body{
 
   .md\:w-\[10\%\]{
     width: 10%;
-  }
-
-  .md\:w-12{
-    width: 3rem;
   }
 
   .md\:justify-center{
@@ -2327,6 +2315,10 @@ html,body{
 
   .lg\:text-\[20px\]{
     font-size: 20px;
+  }
+
+  .lg\:text-\[23px\]{
+    font-size: 23px;
   }
 
   .lg\:text-\[16px\]{
