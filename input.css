@@ -21,8 +21,17 @@
 }
 
 .SII2024-size-commitee-Image{
-  /* @apply tiny:w-[6.5rem] tiny:h-[9rem] md:w-[11rem] md:h-[16rem] */
-  @apply tiny:w-[50%] sm:w-[65%] md:w-[75%]
+  /* @apply tiny:w-[6.5rem] sm:w-[4rem] md:w-[11rem]  */
+  @apply tiny:w-[45%] sm:w-[45%] md:w-[65%] 
+}
+
+.SII2024-size-commitee-Image-row4{
+  /* @apply tiny:w-[6.5rem] sm:w-[4rem] md:w-[11rem]  */
+  @apply tiny:w-[45%] sm:w-[55%] md:w-[80%] lg:w-[84%]
+}
+.SII2024-size-commitee-Image-row2{
+  /* @apply tiny:w-[6.5rem] sm:w-[4rem] md:w-[11rem]  */
+  @apply tiny:w-[45%] sm:w-[55%] md:w-[62%] lg:w-[65%]
 }
 
 .SII2024-text-commitee-Name{
