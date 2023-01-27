@@ -760,6 +760,10 @@ video {
   flex-basis: 16.666667%;
 }
 
+.basis-1{
+  flex-basis: 0.25rem;
+}
+
 .basis-1\/2{
   flex-basis: 50%;
 }
@@ -790,6 +794,10 @@ video {
 
 .flex-row{
   flex-direction: row;
+}
+
+.flex-col{
+  flex-direction: column;
 }
 
 .items-center{
@@ -2365,6 +2373,10 @@ html,body{
 
   .lg\:items-start{
     align-items: flex-start;
+  }
+
+  .lg\:justify-end{
+    justify-content: flex-end;
   }
 
   .lg\:justify-center{
