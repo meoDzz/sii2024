@@ -69,19 +69,32 @@
             </li>
           </ul> 
 
-          <ul class="flex justify-evenly basis-1/6 max-w-full text-blue-900">
-            <!-- <li class="tiny:h-3 tiny:w-3 md:h-5 md:w-5">             
-              <a href="#" > 
-                  <img src="Image/Logo-Top-Menu/Fb.png">
-      
-              </a>
-            </li> -->
-            <li class="tiny:h-3 tiny:w-3 md:h-5 md:w-5">            
-              <a href="https://twitter.com/SII2024_HaLong"> 
-                <img src="Image/Logo-Top-Menu/Twistter.png">
-              </a>
-            </li>
+          <ul class="flex  basis-1/6 max-w-full text-blue-900">          
+            <!-- <div class="flex justify-end basis-1/2 cursor-pointer">
+              <li class="flex items-baseline">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="tiny:h-4 tiny:w-4 md:h-6 md:w-6" >
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                </svg>               
+              </li>            
+            </div> -->
+
+            <div class="flex justify-end basis-1/2">
+              <li class=" tiny:h-4 tiny:w-4 md:h-6 md:w-6">            
+                <a href="./index.html#Email"> 
+                  <img src="Image/Logo-Top-Menu/Email.png">
+                </a>
+              </li>
+            </div>
+            <div class="flex justify-end basis-1/2 items-center">
+              <li class=" tiny:h-4 tiny:w-4 md:h-6 md:w-6 tiny:mr-0 md:mr-4 lg:mr-5">            
+                <a href="https://twitter.com/SII2024_HaLong"> 
+                  <img src="Image/Logo-Top-Menu/Twistter.png">
+                </a>
+              </li>
+            </div>  
+                     
           </ul>
+
           <div class="flex items-center lg:hidden basis-1/6 tiny:justify-center md:justify-center cursor-pointer">
             <svg id="SII2024-toggle-top-menu-icon" xmlns="http://www.w3.org/2000/svg" class="w-7 h-7"
               fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -117,7 +130,7 @@
         <div class="SII2024 information">
           <div class="flex justify-start items-center md:px-40 md:py-5">
             <div class="">
-             <div class="text-center text-2xl mb-6 font-Karla font-bold tiny:mx-10"> The 2024 IEEE/SICE International Symposium on
+             <div class="text-center tiny:text-[18px] sm:text-[22px] md:text-[26px] mb-6 font-Karla font-bold tiny:mx-10"> The 2024 IEEE/SICE International Symposium on
                 System Integration (SII2024) </div>
               <div class="text-gray-700 leading-7 mb-6 text-justify tiny:mx-10">
                 IEEE/SICE SII is the premier symposium series presenting the state of the art and future perspectives of
@@ -135,13 +148,20 @@
                 <div class="text-center text-2xl mb-5 mt-10 font-Karla font-bold tiny:mx-10 text-blue-800">
                   <p> Follow us on Twitter !</p>
                 </div>
-                <div class="pb-11 flex justify-center items-center">
+                <div class="pb-5 flex justify-center items-center">
                   <div class=" tiny:h-8 tiny:w-8 md:h-12 md:w-12 ">  
                       <a href="https://twitter.com/SII2024_HaLong"> 
                         <img src="Image/Logo-Top-Menu/Twistter.png" class="">
                       </a>                      
                   </div>         
                 </div>
+
+                <div class="text-center tiny:text-[16px] sm:text-[20px] md:text-[24px] mb-5 mt-5 font-Karla font-bold tiny:mx-5 text-black">
+                  <p id="Email"> Contact Us: <br> sii2024[at]ml.jaist.ac.jp</p>
+                </div>
+                
+
+
               </div>   
             </div>
           </div>
@@ -211,13 +231,12 @@
             </div>
           </div>
           <div class="content"><div class="uppercase">Visa & Registration</div>
-
-              <img src="Image/HaLong/Halong5.jpg" class="w-60 h-40 object-cover">
-              <div class="text-[15px] text-blue-900 font-Karla font-bold mt-5 px-1">
-                The visa information is updated.<p>(Update date: 26-Nov-2022)</p> 
-              </div>
-              <a href="./page/registration.html#VisaExempted" class="font-semibold flex items-center
-              underline underline-offset-2 text-yellow-700  hover:text-yellow-600">See more</a>
+            <img src="Image/HaLong/Halong5.jpg" class="w-60 h-40 object-cover">
+            <div class="text-[15px] text-blue-900 font-Karla font-bold mt-5 px-1">
+              The visa information is updated.<p>(Update date: 26-Nov-2022)</p> 
+            </div>
+            <a href="./page/registration.html#VisaExempted" class="font-semibold flex items-center
+            underline underline-offset-2 text-yellow-700  hover:text-yellow-600">See more</a>
           </div>
         </div>
 
@@ -237,10 +256,8 @@
               </div>
               <!--End featured-mugs" -->
 
-              <div >
-                <ul class="list-disc list-inside text-black dark:text-gray-400">
-                  
-                  
+              <div class="tiny:p-3 sm:p-0">
+                <ul class="list-disc list-inside text-black dark:text-gray-400">                 
                   <li>
                     Proposals for Special Sessions
                     <div class="grid tiny:grid-cols-2 sm:grid-rows-2 mt-5 tiny:text-[13px]">
@@ -335,16 +352,15 @@
               <!--End featured-mugs" -->
 
               <div class="flex justify-center  text-center tiny:mx-0">
-                <div class="tiny:w-[50%] sm:w-[75%] ">
+                <div class="tiny:w-[75%] sm:w-[75%] ">
                   <div class=" flex justify-center items-center tiny:p-3 md:gap-5 md:p-5 bg-blue-200 hover:bg-blue-400  border-sky-300 hover:scale-[1.2] tiny:rounded-[5px] md:rounded-[14px]">
                     <a href="Image/CFP/SII2024.pdf"  download>                     
-                      <!-- <div class="animate-Download tiny:text-[15px] md:text-[25px] tiny:flex tiny:text-center" >Download Call for Paper</div> -->
                       <p class="animate-Download tiny:text-[15px] md:text-[25px] tiny:flex tiny:text-center">Download Call for Paper</p>
                     </a>
                   </div>
 
                   <img src="Image/CFP/CFP_SII2024.jpg" class="tiny:items-center">
-                  <br class="mx-20">Email: sii2024[at]ml.jaist.ac.jp
+                  <p class="mx-20">Email: sii2024[at]ml.jaist.ac.jp </p>
                 </div>
                 
               </div>
@@ -365,7 +381,7 @@
             <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black"></div>
           </div>
           <!--End featured-mugs" -->
-          <div class="grid grid-cols-2 gap-8">
+          <div class="grid sm:grid-cols-2 gap-8">
             <div>
               <div class="SII2024-travel">
                 <a href="https://halongbay.com.vn/en/">
