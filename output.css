@@ -672,6 +672,10 @@ video {
   margin-left: 0.75rem;
 }
 
+.mb-16{
+  margin-bottom: 4rem;
+}
+
 .block{
   display: block;
 }
@@ -708,10 +712,6 @@ video {
   height: 1px;
 }
 
-.h-40{
-  height: 10rem;
-}
-
 .h-4{
   height: 1rem;
 }
@@ -732,8 +732,8 @@ video {
   width: 16.666667%;
 }
 
-.w-60{
-  width: 15rem;
+.w-40{
+  width: 10rem;
 }
 
 .w-\[80\%\]{
@@ -770,6 +770,12 @@ video {
 
 .basis-1{
   flex-basis: 0.25rem;
+}
+
+.border-spacing-2{
+  --tw-border-spacing-x: 0.5rem;
+  --tw-border-spacing-y: 0.5rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
 }
 
 .transform{
@@ -860,8 +866,16 @@ video {
   white-space: nowrap;
 }
 
+.rounded{
+  border-radius: 0.25rem;
+}
+
 .rounded-\[5px\]{
   border-radius: 5px;
+}
+
+.border-2{
+  border-width: 2px;
 }
 
 .border{
@@ -876,9 +890,18 @@ video {
   border-bottom-width: 1px;
 }
 
+.border-solid{
+  border-style: solid;
+}
+
 .border-sky-300{
   --tw-border-opacity: 1;
   border-color: rgb(125 211 252 / var(--tw-border-opacity));
+}
+
+.border-blue-200{
+  --tw-border-opacity: 1;
+  border-color: rgb(191 219 254 / var(--tw-border-opacity));
 }
 
 .border-gray-800{
@@ -1645,6 +1668,16 @@ html,body{
   font-size:14px;
 }
 
+.twitter_attr{
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  height:400px;
+  width: 100%;
+  overflow:hidden;
+  overflow-y:scroll;
+}
+
 .after\:absolute::after{
   content: var(--tw-content);
   position: absolute;
@@ -1720,14 +1753,14 @@ html,body{
   cursor: default;
 }
 
-.hover\:bg-blue-400:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-gray-100:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-blue-400:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-red-200:hover{
@@ -1949,12 +1982,12 @@ html,body{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .tiny\:flex-col{
-    flex-direction: column;
+  .tiny\:grid-cols-1{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
-  .tiny\:items-center{
-    align-items: center;
+  .tiny\:flex-col{
+    flex-direction: column;
   }
 
   .tiny\:justify-center{
@@ -2219,10 +2252,6 @@ html,body{
     margin-right: 1rem;
   }
 
-  .md\:mr-2{
-    margin-right: 0.5rem;
-  }
-
   .md\:h-6{
     height: 1.5rem;
   }
@@ -2335,6 +2364,10 @@ html,body{
     font-size: 17px;
   }
 
+  .md\:text-\[10px\]{
+    font-size: 10px;
+  }
+
   .md\:text-\[18px\]{
     font-size: 18px;
   }
@@ -2366,10 +2399,6 @@ html,body{
   .md\:text-\[16px\]{
     font-size: 16px;
   }
-
-  .md\:text-\[10px\]{
-    font-size: 10px;
-  }
 }
 
 @media (min-width: 1024px){
@@ -2378,12 +2407,12 @@ html,body{
     margin-right: auto;
   }
 
-  .lg\:mr-1{
-    margin-right: 0.25rem;
-  }
-
   .lg\:mr-1\.5{
     margin-right: 0.375rem;
+  }
+
+  .lg\:mr-1{
+    margin-right: 0.25rem;
   }
 
   .lg\:flex{
@@ -2456,10 +2485,6 @@ html,body{
     font-size: 15px;
   }
 
-  .lg\:text-\[11px\]{
-    font-size: 11px;
-  }
-
   .lg\:text-\[20px\]{
     font-size: 20px;
   }
@@ -2478,10 +2503,6 @@ html,body{
 
   .lg\:text-\[18px\]{
     font-size: 18px;
-  }
-
-  .lg\:text-\[10px\]{
-    font-size: 10px;
   }
 
   .after\:lg\:absolute::after{
@@ -2528,8 +2549,16 @@ html,body{
 }
 
 @media (min-width: 1280px){
-  .xl\:mr-10{
-    margin-right: 2.5rem;
+  .xl\:mr-5{
+    margin-right: 1.25rem;
+  }
+
+  .xl\:h-6{
+    height: 1.5rem;
+  }
+
+  .xl\:w-6{
+    width: 1.5rem;
   }
 
   .xl\:text-\[24px\]{
@@ -2554,4 +2583,3 @@ html,body{
     margin-right: 5rem;
   }
 }
-
