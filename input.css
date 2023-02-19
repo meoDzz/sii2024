@@ -21,8 +21,17 @@
 }
 
 .SII2024-size-commitee-Image{
-  /* @apply tiny:w-[6.5rem] tiny:h-[9rem] md:w-[11rem] md:h-[16rem] */
-  @apply tiny:w-[50%] sm:w-[65%] md:w-[75%]
+  /* @apply tiny:w-[6.5rem] sm:w-[4rem] md:w-[11rem]  */
+  @apply tiny:w-[45%] sm:w-[45%] md:w-[65%] 
+}
+
+.SII2024-size-commitee-Image-row4{
+  /* @apply tiny:w-[6.5rem] sm:w-[4rem] md:w-[11rem]  */
+  @apply tiny:w-[45%] sm:w-[55%] md:w-[80%] lg:w-[84%]
+}
+.SII2024-size-commitee-Image-row2{
+  /* @apply tiny:w-[6.5rem] sm:w-[4rem] md:w-[11rem]  */
+  @apply tiny:w-[45%] sm:w-[55%] md:w-[62%] lg:w-[65%]
 }
 
 .SII2024-text-commitee-Name{
@@ -34,6 +43,14 @@
   /* @apply tiny:w-[6.5rem] tiny:h-[9rem] md:w-[11rem] md:h-[16rem] */
   @apply tiny:text-[15px] md:text-[16px] lg:text-[18px] text-left
 }
+
+.SII2024-size-HostUni-Image{
+  /* @apply tiny:w-[6.5rem] tiny:h-[9rem] md:w-[11rem] md:h-[16rem] */
+  @apply tiny:w-[15%] sm:w-[7%] md:w-[10%]
+}
+
+
+
 
 html,body{
   max-width: 100%;
@@ -83,6 +100,7 @@ html,body{
 
 .content {
   /* width: 300px !important; */
+  
   height: 250px;
   text-align: left;
   border: 1px solid;
@@ -266,3 +284,44 @@ html,body{
 .textFooterMd{
   font-size:14px;
 }
+
+.twitter_attr{
+  margin: auto;
+  flex-direction: column;
+  align-items: center; 
+  height: 70%;
+  max-height: 400px;
+  width: 100%;
+  overflow:hidden; 
+  overflow-y:scroll;
+}
+
+
+.dropdown
+{
+  position: absolute;
+  width: 100%;
+  flex-wrap: wrap;
+  visibility: hidden;
+  margin-top: 15px;
+  transition: 0.3s;
+  /* background-color: #e5e7eb; */
+}
+
+ul li:hover .dropdown
+{
+  visibility: visible;
+}
+ul li a .dropdown 
+{
+  color: #000000;
+  padding: 2px;
+}
+ul .dropdown
+{
+  width:max-content;
+  background-color: #c4cddc;
+  padding: 10px;
+}
+
+
