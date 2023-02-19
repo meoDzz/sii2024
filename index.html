@@ -60,17 +60,27 @@
             </li>
             <li class="SII2024-top-menu-item lg:pr-1.5 lg:border-r-[1px] lg:border-gray-800">
               <a href="./page/registration.html" class="">Registration</a>
-            </li>
-            <li class="SII2024-top-menu-item lg:pr-1.5 lg:border-r-[1px] lg:border-gray-800">
-              <a href="./page/invitedSpeakers.html" class="whitespace-nowrap">Invited Speakers</a>
-            </li>
-            <li class="SII2024-top-menu-item lg:pr-1.5 lg:border-r-[1px] lg:border-gray-800">
-              <a href="./page/accomodation.html" >Accomodation</a>  
-              <!-- <ul class="dropdown">
-                <li class="hover:font-light"><a href="./page/accomodation.html">Product 1</a></li>
-                <li class="hover:font-light"><a href="./page/accomodation.html">Product 2</a></li>
-                <li class="hover:font-light"><a href="./page/accomodation.html">Product 3</a></li>
+              <!-- <ul class="dropdown capitalize">
+                <li class="hover:text-orange-700 "><a href="./page/invitedSpeakers.html">Transportation 1</a></li>
+                <li class="hover:text-orange-700 "><a href="./page/invitedSpeakers.html">Accomodation 1</a></li>
+                <li class="hover:text-orange-700 "><a href="./page/invitedSpeakers.html">Tourist Attractions 1</a></li>
               </ul> -->
+            </li>
+            <li class="lg:pr-1.5 lg:border-r-[1px] lg:border-gray-800">
+              <a href="" class="SII2024-top-menu-item whitespace-nowrap dropbtn">Invited Speakers</a>
+              <!-- <ul class="dropdown capitalize">
+                <li class="hover:text-orange-700 "><a href="./page/invitedSpeakers.html">Transportation 1</a></li>
+                <li class="hover:text-orange-700 "><a href="./page/invitedSpeakers.html">Accomodation 1</a></li>
+                <li class="hover:text-orange-700 "><a href="./page/invitedSpeakers.html">Tourist Attractions 1</a></li>
+              </ul> -->
+            </li>
+            <li class="lg:pr-1.5 lg:border-r-[1px] lg:border-gray-800">
+              <a class="SII2024-top-menu-item whitespace-nowrap dropbtn" href="" >Local-infor</a>  
+              <ul class="dropdown capitalize">
+                <li class="hover:text-orange-700 "><a href="./page/accomodation.html">Transportation</a></li>
+                <li class="hover:text-orange-700 "><a href="./page/accomodation.html">Accomodation</a></li>
+                <li class="hover:text-orange-700 "><a href="./page/accomodation.html">Tourist Attractions</a></li>
+              </ul>
             </li>
           </ul> 
 
@@ -623,9 +633,11 @@
     });
   }
   );
-
-
-
+  $('.dropbtn').click(function()
+  {
+    $('.dropdown').toggleClass('display')
+  }
+  )
 </script>
 
 

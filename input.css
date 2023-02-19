@@ -303,8 +303,9 @@ html,body{
   width: 100%;
   flex-wrap: wrap;
   visibility: hidden;
-  margin-top: 15px;
   transition: 0.3s;
+  z-index: 100000;
+
   /* background-color: #e5e7eb; */
 }
 
@@ -320,8 +321,18 @@ ul li a .dropdown
 ul .dropdown
 {
   width:max-content;
-  background-color: #c4cddc;
+  background-color: #c4d7dc;
   padding: 10px;
 }
+@media(max-width: 1023px)  
+{
+  ul .dropdown
+  {
+    margin-left: 60%;
+    transform: translateX(-60%);
+    text-align: left;
+  }
+}
+  
 
 
