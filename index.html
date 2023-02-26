@@ -60,17 +60,27 @@
             </li>
             <li class="SII2024-top-menu-item lg:pr-1.5 lg:border-r-[1px] lg:border-gray-800">
               <a href="./page/registration.html" class="">Registration</a>
-            </li>
-            <li class="SII2024-top-menu-item lg:pr-1.5 lg:border-r-[1px] lg:border-gray-800">
-              <a href="./page/invitedSpeakers.html" class="whitespace-nowrap">Invited Speakers</a>
-            </li>
-            <li class="SII2024-top-menu-item lg:pr-1.5 lg:border-r-[1px] lg:border-gray-800">
-              <a href="./page/accomodation.html" >Accomodation</a>  
-              <!-- <ul class="dropdown">
-                <li class="hover:font-light"><a href="./page/accomodation.html">Product 1</a></li>
-                <li class="hover:font-light"><a href="./page/accomodation.html">Product 2</a></li>
-                <li class="hover:font-light"><a href="./page/accomodation.html">Product 3</a></li>
+              <!-- <ul class="dropdown capitalize">
+                <li class="hover:text-orange-700 "><a href="./page/invitedSpeakers.html">Transportation 1</a></li>
+                <li class="hover:text-orange-700 "><a href="./page/invitedSpeakers.html">Accomodation 1</a></li>
+                <li class="hover:text-orange-700 "><a href="./page/invitedSpeakers.html">Tourist Attractions 1</a></li>
               </ul> -->
+            </li>
+            <li class="lg:pr-1.5 lg:border-r-[1px] lg:border-gray-800">
+              <a href="" class="SII2024-top-menu-item whitespace-nowrap dropbtn">Invited Speakers</a>
+              <!-- <ul class="dropdown capitalize">
+                <li class="hover:text-orange-700 "><a href="./page/invitedSpeakers.html">Transportation 1</a></li>
+                <li class="hover:text-orange-700 "><a href="./page/invitedSpeakers.html">Accomodation 1</a></li>
+                <li class="hover:text-orange-700 "><a href="./page/invitedSpeakers.html">Tourist Attractions 1</a></li>
+              </ul> -->
+            </li>
+            <li class="lg:pr-1.5 lg:border-r-[1px] lg:border-gray-800">
+              <a class="SII2024-top-menu-item whitespace-nowrap dropbtn" href="" >Local-infor</a>  
+              <ul class="dropdown capitalize">
+                <li class="hover:text-orange-700 "><a href="./page/accomodation.html">Transportation</a></li>
+                <li class="hover:text-orange-700 "><a href="./page/accomodation.html">Accomodation</a></li>
+                <li class="hover:text-orange-700 "><a href="./page/accomodation.html">Tourist Attractions</a></li>
+              </ul>
             </li>
           </ul> 
 
@@ -147,6 +157,7 @@
                 problems in the new century. This symposium focuses towards new research and industrial application of
                 system integration, and discusses approach and methodologies to improve effectiveness of system
                 integration.
+                <br class="mx-20"> ※ All proceedings will be published on IEEE Xplore, and indexed by Web of Science and Scopus.
               </div>
 
               <div class="">
@@ -238,7 +249,7 @@
               underline underline-offset-2 text-yellow-700  hover:text-yellow-600">See more</a>
             </div>
           </div>
-          <div class="content"><div class="uppercase">Registration & Visa</div>
+          <div class="content"><div class="uppercase">Visa Information</div>
             <img src="Image/HaLong/Halong5.jpg" class="w-40 h-35 object-cover">
             <div class="text-[15px] text-blue-900 font-Karla font-bold mt-5 px-1">
               The visa information is updated.<p>(Update date: 26-Nov-2022)</p> 
@@ -246,7 +257,7 @@
             <a href="./page/registration.html#VisaExempted" class="font-semibold flex items-center
             underline underline-offset-2 text-yellow-700  hover:text-yellow-600">See more</a>
           </div>
-          <div class="content"><div class="uppercase">Visa & Registration</div>
+          <div class="content"><div class="uppercase">Visa Information</div>
             <img src="Image/HaLong/Halong4.jpg" class="w-40 h-35 object-cover">
             <div class="text-[15px] text-blue-900 font-Karla font-bold mt-5 px-1">
               The electronic Visa information is updated.<p>(Update date: 1-Feb-2023)</p> 
@@ -623,9 +634,11 @@
     });
   }
   );
-
-
-
+  $('.dropbtn').click(function()
+  {
+    $('.dropdown').toggleClass('display')
+  }
+  )
 </script>
 
 
