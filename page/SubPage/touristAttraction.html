@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/x-icon" href="../../Image/LogoSII2024/icon.ico">
+      <title>SII2024</title>
+        
+        <link href="build.css" type="text/css" rel="stylesheet">
+        <link href="../../input.css" type="text/css" rel="stylesheet">
+        <link href="../../output.css" type="text/css" rel="stylesheet">
+        <link href="../page.css" type="text/css" rel="stylesheet">
+        <script src="../../main.js" type="text/javascript" async> </script>
+      
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+        <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+      
+      
+      </head>
+
+    <body>
+      <button onclick="topFunction()" class="tiny:text-[10px] md:text-[15px] font-bold" id="myBtn" title="Go to top" >
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />
+        </svg>
+      </button>
+        <header class=" bg-slate-300 font-Karla">
+            <nav class="flex flex-row items-center relative uppercase lg:navStatic">
+              <div class="flex justify-center max-w-full lg:basis-2/6 tiny:basis-4/6 tiny:text-[13px] sm:text-[15px] md:text-[17px] lg:text-[15px] xl:text-[24px] md:my-2 tiny:my-1">       
+                <!-- <p class="animate-charcter text-center">  IEEE/SICE SII2024</p>    -->
+                <a href="../../index.html" class="animate-charcter text-center"> IEEE/SICE SII2024</a>        
+              </div>        
+              <ul id="SII2024-top-menu" class="hidden lg:toggleMenu lg:flex lg:justify-center lg:items-start lg:gap-3 lg:basis-3/6 text-[12px] font-bold tiny:text-[13px] sm:text-[12px] md:text-[10px] xl:text-[13px]">
+                <li class="SII2024-top-menu-item pr-1.5 border-r-[1px] border-gray-800">
+                  <a href="../committee.html" class="whitespace-nowrap">Organizing Committee</a>
+                </li>
+                <li class="SII2024-top-menu-item pr-1.5 border-r-[1px] border-gray-800">
+                  <a href="../specialSessions.html" class="whitespace-nowrap ">Special Sessions</a>
+                </li>
+                <li class="SII2024-top-menu-item pr-1.5 border-r-[1px] border-gray-800">
+                  <a href="../authorInformation.html" class="whitespace-nowrap ">Author Information</a>
+                </li>
+                <!-- <li class="SII2024-top-menu-item pr-1.5 border-r-[1px] border-gray-800">
+                  <a href="../page/sponsors.html" class="whitespace-nowrap">Sponsors</a>
+                </li> -->
+                <li class="SII2024-top-menu-item pr-1.5 border-r-[1px] border-gray-800">
+                  <a href="../program.html" class="">Program</a>
+                </li>
+                <li class="SII2024-top-menu-item pr-1.5 border-r-[1px] border-gray-800">
+                  <a href="../registration.html" class="">Registration</a>
+                </li>
+                <li class="SII2024-top-menu-item pr-1.5 border-r-[1px] border-gray-800">
+                  <a href="../invitedSpeakers.html" class="whitespace-nowrap">Invited Speakers</a>
+                </li>
+                <li class="lg:pr-1.5 lg:border-r-[1px] lg:border-gray-800">
+                  <a class="SII2024-top-menu-item whitespace-nowrap dropbtn" href="" >Local-infor</a>  
+                  <ul class="dropdown capitalize">
+                    <li class="hover:text-orange-700 "><a href="./Visa.html">Visa-infor</a></li>
+                    <li class="hover:text-orange-700 "><a href="./transportation.html">Transportation</a></li>
+                    <!-- <li class="hover:text-orange-700 "><a href="./page/localInfor.html">Accomodation</a></li> -->
+                    <li class="hover:text-orange-700 "><a href="">Tourist Attractions</a></li>
+                  </ul>
+                </li>
+
+              </ul> 
+    
+              <ul class="flex justify-evenly basis-1/6 max-w-full text-blue-900">
+                
+                <div class="flex justify-end basis-1/2">
+                  <li class=" tiny:h-4 tiny:w-4 md:h-6 md:w-6 lg:w-4 lg:h-4 xl:w-6 xl:h-6">   
+                    <a href="../../index.html#Email"> 
+                      <img src="../../Image/Logo-Top-Menu/Email.png">
+                    </a>
+                  </li>
+                </div>
+                <div class="flex justify-end basis-1/2 items-center">
+                  <li class="tiny:h-4 tiny:w-4 md:h-6 md:w-6 lg:w-4 lg:h-4 xl:w-6 xl:h-6 tiny:mr-0 md:mr-4 lg:mr-1.5 xl:mr-5 2xl:mr-20">            
+                    <a href="https://twitter.com/SII2024_HaLong"> 
+                      <img src="../../Image/Logo-Top-Menu/Twistter.png">
+                    </a>
+                  </li>
+                </div>   
+              </ul>
+
+              <div class="flex items-center lg:hidden basis-1/6 tiny:justify-center md:justify-center cursor-pointer">
+                <svg id="SII2024-toggle-top-menu-icon" xmlns="http://www.w3.org/2000/svg" class="w-7 h-7"
+                  fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+              </div>   
+
+            </nav>
+    
+          </header>
+        
+          <div class=" ">
+            <div class="flex justify-center mt-5">
+              <img src="../../Image/LogoSII2024/LogoSII2024.png" class="tiny:w-[20%] sm:w-[10%] md:w-[12%]" >          
+            </div>
+            <div class="flex justify-center text-center max-w-full font-Karla tiny:mx-[10px] tiny:text-[12px]
+             sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[17px] mb-4 font-semibold">       
+              <p>The 2024 IEEE/SICE International Symposium on System Integration 
+                <br> Ha Long, Vietnam 8-11<sup>th</sup> January, 2024
+              </p>           
+            </div>        
+          </div>
+
+          <div>
+            <img src="../../Image/HaLong/Halong5cut.jpg" background-repeat="no-repeat” background-size="cover”>
+          </div>
+          
+          <div class="SII2024-subHeadLine flex justify-center items-center mt-10 mb-10 tiny:text-[15px] ">
+            <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black max-w-full"></div>
+  
+            <div class="SII2024-subHeadLine-label uppercase mx-4 tracking-widest text-gray-600 
+              font-Karla text-center sm:text-[17px] lg:text-[20px]">
+              <p>Tourist Attractions</p>
+            </div>
+            <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black"></div>
+          </div>
+
+
+          <div class="justify-start items-center md:px-40 md:py-5 mx-10 font-Karla">
+            <div class="sm:text-[14px] md:text-[17px]">
+              <p> Ha Long is a city and the administrative center of Quang Ninh province, 
+                located in the northeastern part of Vietnam. It is well-known for Ha Long Bay, 
+                one of the world's natural wonders recognized by UNESCO as a World Heritage Site. 
+                There are several places you should not miss while visiting Ha Long:
+              </p>
+            </div>
+            <div >
+              <ul class="list-decimal sm:text-[13px] md:text-[15px] ml-10">
+                <li class="mt-5">
+                  <div class="font-semibold">
+                    Quang Ninh Museum
+                  </div>
+                  <div>
+                    <p>
+                      Quang Ninh Museum (Bảo Tàng Quảng Ninh) is housed in a striking modern building located along the coast of Halong Bay. Spread across three blocks, the structure includes the main museum, a library, and a convention center, all connected by an overhead bridge system. The ground floor is dedicated to the flora and fauna of the region, and the second floor focuses on the history of the province, with displays of US wartime military and some fascinating ancient artifacts dating back to 2000 BC. The third floor of the museum is predominantly about the coal industry in the province,
+                      covering its history with stories of the miners and displays of various artifacts.
+                    </p>
+                    <div class="grid sm:grid-cols-2 tiny:justify-center sm:gap-8">
+                      <div class="map-responsive"> 
+                        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13278.194703902358!2d107.08826648374668!3d20.9498090634572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a58213aea329b%3A0xfdebf2e95b28d582!2zQuG6o28gdMOgbmcgUXXhuqNuZyBOaW5o!5e0!3m2!1sen!2sca!4v1677434584990!5m2!1sen!2sca" width="400" height="300" style="border:0;" 
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                 
+                      </div>
+                      <div>
+                        <img src="../../Image/Travel/Place/QuangNinhMuseum.jpg">
+                        
+                      </div>
+                    </div>
+                    
+                  </div>
+                </li>
+
+                <li class="mt-5">
+                  <div class="font-semibold">
+                    Ha Long Bay
+                  </div>
+                  <div>
+                    <p>
+                      With its majestic natural beauty like a painting, Ha Long Bay is recognized by UNESCO as a world natural wonder. The presence of thousands of islands and pristine caves with mysterious beauty, along with a diverse ecosystem, has made Ha Long Bay an extremely unique destination that any traveler would want to visit. Some famous islands and caves in Ha Long Bay that you can refer to are: Ga Choi Island, Ngoc Vung Island, Con Coc Island, Ti Top Island, and Sung Sot Cave.
+
+                      In addition, at this famous Ha Long tourist destination, visitors can experience many exciting activities such as cruising on Ha Long Bay, kayaking...
+                    </p>
+                    <div class="grid sm:grid-cols-2 tiny:justify-center sm:gap-8">
+                      <div class="map-responsive"> 
+                        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238531.60839558666!2d107.04382671640626!3d20.91005120000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a5796518cee87%3A0x55c6b0bcc85478db!2zSOG6oSBMb25nIEJheQ!5e0!3m2!1sen!2sca!4v1677434872580!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>             
+                      </div>
+                      <div>
+                        <img src="../../Image/Travel/Place/Halong2.jpg">
+                        
+                      </div>
+                    </div>
+                    
+                  </div>
+                </li>
+
+                <li class="mt-5">
+                  <div class="font-semibold">
+                    Tuan Chau Island
+                  </div>
+                  <div>
+                    <p>
+                      Located at the gateway to Ha Long Bay, Tuan Chau Island is a famous tourist destination in Ha Long with the largest artificial marina system in Vietnam, beautiful beaches, and a unique entertainment complex... Tuan Chau Island is also known by tourists with many beautiful names such as
+                       Miss Flower Island, Flower Island, Pearl Island, Coconut Island...
+                    </p>
+                    <div class="grid sm:grid-cols-2 tiny:justify-center sm:gap-8">
+                      <div class="map-responsive"> 
+                        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29812.85381406113!2d106.95158521004907!3d20.92813627007828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a5ec2bff2b109%3A0x5612e1db2b191630!2sTuan%20Chau%20Island!5e0!3m2!1sen!2sca!4v1677435375517!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>
+                      <div>
+                        <img src="../../Image/Travel/Place/TuanChauIsland.jpg">
+                        
+                      </div>
+                    </div>
+                    
+                  </div>
+                </li>
+
+                <li class="mt-5">
+                  <div class="font-semibold">
+                    Bai Chay Beach
+                  </div>
+                  <div>
+                    <p>
+                      Another can't-miss tourist destination in Ha Long is Bai Chay Beach. This is an artificial beach located very close to Ha Long Bay, considered one of the most beautiful and pristine beaches in the city, with a nearly 1000m long coastline covered in smooth white sand.
+
+                      Here, you can freely swim, take pictures for check-ins, relax while admiring the sunset, ride bicycles along the beach or organize team-building activities.
+                    </p>
+                    <div class="grid sm:grid-cols-2 tiny:justify-center sm:gap-8">
+                      <div class="map-responsive"> 
+                        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29810.629361085288!2d107.00509276867395!3d20.939312222823435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a58fa70c069cf%3A0xdd4086cbc02dc67d!2sBai%20Chay%20Beach!5e0!3m2!1sen!2sca!4v1677435536442!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                      </div>
+                      <div>
+                        <img src="../../Image/Travel/Place/baichay.jpeg">
+                        
+                      </div>
+                    </div>
+                    
+                  </div>
+                </li>
+
+                <li class="mt-5">
+                  <div class="font-semibold">
+                    Bai Tho Mountain
+                  </div>
+                  <div>
+                    <p>
+                      Bai Tho Mountain is a limestone mountain located in the center of Ha Long, on which many poems of 
+                      Le Thanh Tong and Trinh Cuong, all inspired by the fairy scenery of Ha Long Bay, are still preserved.
+                       Located right next to Ha Long Bay, Bai Tho Mountain is an ideal tourist destination 
+                      in Ha Long to enjoy a panoramic view of the bay and the city.
+                    </p>
+                    <div class="grid sm:grid-cols-2 tiny:justify-center sm:gap-8">
+                      <div class="map-responsive"> 
+                        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7452.205648815823!2d107.0747251358452!3d20.94838546767466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a583896d6e359%3A0xe60e88af13062a43!2sPoem%20Mountain!5e0!3m2!1sen!2sca!4v1677440628263!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>
+                      <div>  
+                        <img src="../../Image/Travel/Place/BaiThoMountain.jpg">
+                        
+                      </div>
+                    </div>
+                    
+                  </div>
+                </li>
+
+                <li class="mt-5">
+                  <div class="font-semibold">
+                    Bai Chay Bridge
+                  </div>
+                  <div>
+                    <p>
+                      Bai Chay Bridge is located on National Highway 18 in Quang Ninh province, connecting Bai Chay and Hon Gai. The cable-stayed bridge has a total length of 903m,
+                       which leaves tourists amazed when they first set foot in the area. The bridge looks like a thin silk strip stretching over the Cua Luc river, creating a beautiful 
+                       interplay with the surrounding scenery and becoming a source of pride for the people of Quang Ninh.
+                    </p>
+                    <div class="grid sm:grid-cols-2 tiny:justify-center sm:gap-8">
+                      <div class="map-responsive"> 
+                        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.8096033942193!2d107.06341341360155!3d20.96015988603555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a596645366b09%3A0x8a256e4de9a76935!2zQ-G6p3UgQsOjaSBDaMOheQ!5e0!3m2!1sen!2sca!4v1677441738428!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                      </div>
+                      <div>  
+                        <img src="../../Image/Travel/Place/BaiChayBridge.jpg">
+                        
+                      </div>
+                    </div>
+                    
+                  </div>
+                </li>
+
+                <li class="mt-5">
+                  <div class="font-semibold">
+                    Vinpearl Resort & Spa Ha Long
+                  </div>
+                  <div>
+                    <p>
+                      Just 1 hour 30 minutes drive from Hanoi, Vinpearl Resort & Spa Ha Long is the first and only resort in northern Vietnam built entirely on the sea. With the extravagant shape of a castle and 3 private beaches,
+                       green gardens, and an outdoor swimming pool of up to 1,200m2, this place will bring guests an experience of relaxing in the midst of the vast nature, surrounded by the deep blue ocean.
+                    </p>
+                    <div class="grid sm:grid-cols-2 tiny:justify-center sm:gap-8">
+                      <div class="map-responsive"> 
+                        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.2789435764944!2d107.02330631360107!3d20.941310286045823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a58ded84afd2f%3A0xb9e2df876fc304c2!2sVinpearl%20Resort%20%26%20Spa%20H%E1%BA%A1%20Long!5e0!3m2!1sen!2sca!4v1677441990668!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+                      </div>  
+                      <div>
+                          <img src="../../Image/Travel/Place/Halong8.jpeg">
+                        
+                      </div>
+                    </div>
+                    
+                  </div>
+                </li>
+
+                <li class="mt-5">
+                  <div class="font-semibold">
+                    Bai Tu Long Bay
+                  </div>
+                  <div>
+                    <p>
+                      Bai Tu Long Bay is located next to Ha Long Bay, belonging to Cam Pha City and a part of Ha Long. The bay consists of over 600 small and large islands, prominent among them is Bai Tu Long National Park with three main island clusters of Tra Ngoc, Ba Mun, and Sau. Visiting this Ha Long Bay tourist destination, 
+                      tourists have the opportunity to understand the lives of islanders in the interesting fishing villages.
+
+                      Bai Tu Long Bay is also associated with the legend of the mother dragon and her baby dragons who were sent down 
+                      to the mortal world by the Jade Emperor to help our people fight against invaders. They spewed out countless precious
+                       gems and treasures, which turned into small and large islands to block the enemy's boats from reaching the mainland.
+                        The location where the mother dragon first set foot is called Ha Long,
+                       while the location of the baby dragons is Bai Tu Long Bay today.
+                    </p>
+                    <div class="grid sm:grid-cols-2 tiny:justify-center sm:gap-8">
+                      <div class="map-responsive"> 
+                        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119234.18921232501!2d107.18925865015385!3d20.94976760477816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a544d5967fd8d%3A0xe39fb5824580eac7!2sBai%20Tu%20Long%20Bay!5e0!3m2!1sen!2sca!4v1677462775343!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>  
+                      <div>
+                          <img src="../../Image/Travel/Place/VinhBaiTuLong.jpg">
+                        
+                      </div>
+                    </div>
+                    
+                  </div>
+                </li>
+
+                <li class="mt-5">
+                  <div class="font-semibold">
+                    Ba Vang Pagoda 
+                  </div>
+                  <div>
+                    <p>
+                      This is a famous spiritual tourist attraction in Ha Long. Located at an altitude of 340m above sea level, Ba Vang Pagoda has a very sacred location "leaning on the mountain and overlooking the river". It is chosen by many
+                       tourists as a place to visit and enjoy the scenery when coming to Quang Ninh.
+                    </p>
+                    <div class="grid sm:grid-cols-2 tiny:justify-center sm:gap-8">
+                      <div class="map-responsive"> 
+                        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.1108183614074!2d106.76226431398244!3d21.068235685976965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a88e4abefa2e9%3A0xc77de06980444f13!2sBa%20V%C3%A0ng%20Pagoda!5e0!3m2!1sen!2sca!4v1677463177806!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>
+                      <div>    
+                          <img src="../../Image/Travel/Place/ChuaBaVang.jpg">
+                        
+                      </div>
+                    </div>
+                    
+                  </div>
+                </li>
+
+                <li class="mt-5">
+                  <div class="font-semibold">
+                    Relic scenic Yen Tu 
+                  </div>
+                  <div>
+                    <p>
+                      This is a famous historical and spiritual tourist destination in Ha Long. Located at an altitude of 340m above sea level, Yen Tu relic site is associated with 
+                      Buddhism and is known as the "ancestral land of Vietnamese Buddhism". Every year, 
+                      millions of tourists visit and admire the scenery here. If you choose this destination, 
+                      you should consider a 3-day-2-night Quang Ninh tour to ensure that you have enough time to fully 
+                      experience the beauty and reach the summit of Dong Pagoda - considered the heart of this scenic spot.
+                    </p>
+                    <div class="grid sm:grid-cols-2 tiny:justify-center sm:gap-8">
+                      <div class="map-responsive"> 
+                        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.3591143422964!2d106.71822341094405!3d21.138102247549966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a85887c50b6f1%3A0xc0e5ab824f6438c7!2sRelic%20scenic%20Yen%20Tu!5e0!3m2!1sen!2sca!4v1677444180511!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                      </div>
+                      <div>    
+                          <img src="../../Image/Travel/Place/KhuDiTichYenTu.jpg">
+                        
+                      </div>
+                    </div>
+                    
+                  </div>
+                </li>
+
+
+                <li class="mt-5">
+                  <div class="font-semibold">
+                    Cai Bau Pagoda
+                  </div>
+                  <div>
+                    <p>
+                      Also known as Truc Lam Giac Tam Meditation Monastery, this temple is located halfway up the mountain, 
+                      with a panoramic view of Bai Tu Long Bay. 
+                      It is a spiritual tourist destination that cannot be missed when visiting Quang Ninh.
+                    </p>
+                    <div class="grid sm:grid-cols-2 tiny:justify-center sm:gap-8">
+                      <div class="map-responsive"> 
+                        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29774.25223891969!2d107.48829313642443!3d21.121274422288423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314b1021b71af3ad%3A0xb8899dba30a837ff!2zVGhp4buBbiB2aeG7h24gVHLDumMgTMOibSBHacOhYyBUw6JtIHwgQ2jDuWEgQ8OhaSBC4bqndQ!5e0!3m2!1sen!2sca!4v1677444290983!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                      </div>
+                      <div>    
+                          <img src="../../Image/Travel/Place/ChuaCaiBau.jpg">
+                        
+                      </div>
+                    </div>
+                    
+                  </div>
+                </li>
+                
+              </ul> 
+            </div>
+          </div>
+
+          
+
+
+        
+                     
+    </body>
+
+    <footer class="w-full bg-slate-200 ">
+      <div class=" gap-4 mt-5 mx-[5%] ">
+          <div class="font-bold text-blue-900 tiny:text-[9px] sm:text-[12px] md:text-[14px] lg:text-[16px]">          
+            <p>The 2024 IEEE/SICE International Symposium on System Integration <br >© Copyright - SII 2024</br> </p>
+          </div>
+      </div>
+
+    </footer>
+
+</html>
