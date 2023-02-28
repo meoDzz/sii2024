@@ -60,6 +60,9 @@ html,body{
 .Text-contain {
   @apply font-Karla tiny:text-[12px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px]
 }
+.Text-contain-table {
+  @apply font-Karla tiny:text-[12px] sm:text-[13px] lg:text-[15px] 2xl:text-[21px]
+}
 
 .Text-subHeader {
   @apply font-Karla tiny:text-[16px] sm:text-[20px] lg:text-[22px] 2xl:text-[26px] 
@@ -330,6 +333,14 @@ html,body{
   overflow-y:scroll;
 
 }
+@media(max-width: 4000px)  
+{
+  .twitter_attr
+  {
+    height: 600px;
+  }
+}
+
 @media(max-width: 1500px)  
 {
   .twitter_attr
@@ -337,6 +348,8 @@ html,body{
     height: 550px;
   }
 }
+
+
 @media(max-width: 1023px)  
 {
   .twitter_attr

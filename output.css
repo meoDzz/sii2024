@@ -1916,6 +1916,14 @@ html,body{
   overflow-y:scroll;
 }
 
+@media(max-width: 4000px)  
+{
+  .twitter_attr
+  {
+    height: 600px;
+  }
+}
+
 @media(max-width: 1500px)  
 {
   .twitter_attr
