@@ -812,14 +812,6 @@ video {
   flex-basis: 50%;
 }
 
-.basis-2\/3{
-  flex-basis: 66.666667%;
-}
-
-.basis-1\/3{
-  flex-basis: 33.333333%;
-}
-
 .basis-1{
   flex-basis: 0.25rem;
 }
@@ -1773,6 +1765,9 @@ html,body{
 
 .ytb{
   width:70%;
+  height:100%;
+  overflow:hidden;
+  position:relative;
 }
 
 .slick-slider .slick-prev, .slick-next
@@ -1932,17 +1927,18 @@ html,body{
 }
 
 .twitter_attr{
-  margin: 0 auto;
   flex-direction: column;
   align-items: center;
   overflow:hidden;
   overflow-y:scroll;
+  overflow-x:scroll;
 }
 
 @media(max-width: 4000px)  
 {
   .twitter_attr
   {
+    width: 400px;
     height: 600px;
   }
 }
@@ -1951,6 +1947,7 @@ html,body{
 {
   .twitter_attr
   {
+    width: 400px;
     height: 550px;
   }
 }
@@ -1959,6 +1956,7 @@ html,body{
 {
   .twitter_attr
   {
+    width: 400px;
     height: 450px;
   }
 }
@@ -1967,6 +1965,7 @@ html,body{
 {
   .twitter_attr
   {
+    width: 250px;
     height: 350px;
   }
 }
