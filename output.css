@@ -1747,6 +1747,10 @@ html,body{
   position:absolute;
 }
 
+.ytb{
+  width:70%;
+}
+
 .slick-slider .slick-prev, .slick-next
 {
   display:none;
