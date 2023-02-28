@@ -35,7 +35,7 @@
                 <a href="../index.html" class="animate-charcter text-center"> IEEE/SICE SII2024</a>        
               </div>
               
-              <ul id="SII2024-top-menu" class="hidden lg:toggleMenu lg:flex lg:justify-center lg:items-start lg:gap-3 lg:basis-3/6 text-[12px] font-bold tiny:text-[13px] sm:text-[12px] md:text-[10px] xl:text-[13px]">
+              <ul id="SII2024-top-menu" class="hidden lg:toggleMenu lg:flex lg:justify-center lg:items-start lg:gap-3 lg:basis-3/6 text-[12px] font-bold Text-menu">
                 <li class="SII2024-top-menu-item pr-1.5 border-r-[1px] border-gray-800">
                   <a href="../page/committee.html" class="whitespace-nowrap">Organizing Committee</a>
                 </li>
@@ -60,8 +60,9 @@
                 <li class="lg:pr-1.5 lg:border-r-[1px] lg:border-gray-800">
                   <a class="SII2024-top-menu-item whitespace-nowrap dropbtn" href="" >Local-infor</a>  
                   <ul class="dropdown capitalize">
-                    <li class="hover:text-orange-700 "><a href="./SubPage/Visa.html">Visa-infor</a></li>
+                    <li class="hover:text-orange-700 "><a href="./SubPage/Venue.html">Venue</a></li>
                     <li class="hover:text-orange-700 "><a href="./SubPage/transportation.html">Transportation</a></li>
+                    <li class="hover:text-orange-700 "><a href="./SubPage/Visa.html">Visa</a></li>
                     <!-- <li class="hover:text-orange-700 "><a href="./page/localInfor.html">Accomodation</a></li> -->
                     <li class="hover:text-orange-700 "><a href="./SubPage/touristAttraction.html">Tourist Attractions</a></li>
                   </ul>
@@ -113,20 +114,19 @@
           <div>
             <img src="../Image/HaLong/Halong4cut.jpg" background-repeat="no-repeat” background-size="cover”>
           </div>
-
-          <div class="SII2024-subHeadLine flex justify-center items-center mt-10 mb-10 tiny:text-[15px] ">
+          <main class="mainCont">  
+          <div class="SII2024-subHeadLine flex justify-center items-center mt-10 mb-10">
             <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black max-w-full"></div>
   
-            <div class="SII2024-subHeadLine-label uppercase mx-4 tracking-widest text-gray-600 
-              font-Karla text-center sm:text-[17px] lg:text-[20px]">
+            <div class="SII2024-subHeadLine-label uppercase mx-4 tracking-widest text-gray-600 Text-subHeader">
               <p>Special Sessions </p>
             </div>
             <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black"></div>
           </div>
 
           <div class="md:px-20 tiny:px-6">
-            <div class="text-center text-2xl font-Karla font-bold"> Call for Special Sessions </div>
-                <div class="font-Karla text-justify indent-5 space-y-4">
+            <div class="text-center Text-subHeader Text-subHeader-margin font-bold"> Call for Special Sessions </div>
+                <div class="Text-contain text-justify indent-5 space-y-4">
                   The IEEE/SICE SII 2024 organizing team invites professionals 
                   in the area of System Integration to propose special sessions to be 
                   held on IEEE/SICE SII 2024 in Ha Long, Vietnam. Special sessions provide 
@@ -186,13 +186,13 @@
               <!-- </div> -->
               <div class="basis-1">
                 
-                <div class="text-center text-2xl font-Karla font-bold mt-5 mb-5"> Proposal Content</div>
-                <div class="font-Karla text-justify indent-5">
+                <div class="text-center Text-subHeader Text-subHeader-margin font-Karla font-bold"> Proposal Content</div>
+                <div class="Text-contain text-justify indent-5">
                   If you intend to propose and organize a special session, 
                   please provide us with a proposal using the template,
                    and including the following information:
                 </div>
-                <ul class="list-disc text-justify ml-10 ">
+                <ul class="Text-contain list-disc text-justify ml-10 ">
                   <li>Title of the Special Session.</li>
                   <li>Organizers of the Special Session.</li>
                   <li>Abstract of the Special Session (approx. 100 words).</li>
@@ -201,7 +201,7 @@
                       interesting and significant topic?</li>
                   <li>A list of potential paper titles, authors, reviewers, and their affiliations.</li>
                 </ul>
-                <div class="font-Karla text-justify indent-5 space-y-2">
+                <div class=" Text-contain text-justify indent-5 space-y-2">
                   <p>Once approved, it is the duty of the organizers to publicize the 
                   Special Session among researchers and practitioners in the field and 
                   attract a sufficient number of papers.​</p>
@@ -238,10 +238,10 @@
 
           <div class="md:px-20 md:py-5 lg:px-32 mx-10 font-Karla">
             <div class="">
-              <div class="text-center text-2xl mb-4 font-bold ">
+              <div class="text-center Text-subHeader Text-subHeader-margin font-bold ">
                 Proposal Submissions
               </div>
-              <div class="text-gray-700 leading-5 mb-6 text-justify indent-5 tiny:text-[15px] sm:text-[16px] md:text-[17px] lg:text-[20px] font-Karla">
+              <div class="text-gray-700 mb-6 text-justify Text-contain">
                 Please submit your proposal through Paper Plaza in PDF format. 
                 After you finished your proposal submission, a confirmation e-mail
                 from Paper Plaza will be sent to your registered e-mail address. 
@@ -310,17 +310,19 @@
             </div> 
           </div>
 
-          
+    </main>      
                      
     </body>
 
-    <footer class="w-full bg-slate-200 ">
-        <div class=" gap-4 mt-5 mx-[5%] ">
-            <div class="font-bold text-blue-900 tiny:text-[9px] sm:text-[12px] md:text-[14px] lg:text-[16px]">          
-              <p>The 2024 IEEE/SICE International Symposium on System Integration <br >© Copyright - SII 2024</br> </p>
-            </div>
-        </div>
+    <footer class="w-full bg-slate-200 flex">
+      <div class="flex basis-1/2  justify-items-start  gap-4 mt-2 mb-2 mx-[5%] ">
+          <div class="font-bold text-blue-900 tiny:text-[9px] sm:text-[12px] md:text-[14px] lg:text-[16px] whitespace-nowrap">          
+            <p>The 2024 IEEE/SICE International Symposium on System Integration <br > Contact us: sii2024@ml.jaist.ac.jp</br> </p>
+          </div>
+      </div>
 
-      </footer>
+      
+
+    </footer>
 
 </html>

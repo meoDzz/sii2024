@@ -57,6 +57,28 @@ html,body{
   overflow-x: hidden;
 }
 
+.Text-contain {
+  @apply font-Karla tiny:text-[12px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px]
+}
+
+.Text-subHeader {
+  @apply font-Karla tiny:text-[16px] sm:text-[20px] lg:text-[22px] 2xl:text-[26px] 
+}
+.Text-subHeader-margin
+{
+  @apply tiny:mb-2 tiny:mt-7 md:mb-5 md:mt-7 lg:mb-7 lg:mt-9 whitespace-nowrap
+}
+
+/* Main content */
+.mainCont {
+  margin-top: 50px; /* Add a top margin to avoid content overlay */
+  max-width: 1500px;
+  margin: 0 auto; /* Center the container horizontally */
+}
+.Text-menu
+{
+  @apply tiny:text-[13px] sm:text-[12px] md:text-[10px] xl:text-[13px] 2xl:text-[20px]
+}
 .animate-Download {
   font:font-Karla;
   font-weight: 700;
@@ -93,21 +115,22 @@ html,body{
 
 .News-class {
   max-width: 80%;
-  height: 400px;
+  height: 240px;
   background-color: white;
-  margin: 10px auto;
+  margin: 2px auto;
 }
 
 .content {
   /* width: 300px !important; */
   
-  height: 250px;
+  height: 200px;
   text-align: left;
   border: 1px solid;
-  margin-top: 30px;
+  margin-top: 10px;
   border: none;
   /* color: rgb(150, 8, 8); */
 }
+
 .contentSponsor {
   /* width: 300px !important; */
   height: 30px;
@@ -266,10 +289,7 @@ html,body{
 /* Change background on mouse-over */
 
 
-/* Main content */
-.mainCont {
-  margin-top: 50px; /* Add a top margin to avoid content overlay */
-}
+
 
 
 
@@ -286,16 +306,34 @@ html,body{
 }
 
 .twitter_attr{
-  margin: auto;
+  margin: 0 auto;
   flex-direction: column;
   align-items: center; 
-  height: 70%;
-  max-height: 400px;
-  width: 100%;
+  max-width: 75%;
   overflow:hidden; 
   overflow-y:scroll;
-  overflow-x:scroll;
-  padding: 10px;
+
+}
+@media(max-width: 1500px)  
+{
+  .twitter_attr
+  {
+    height: 550px;
+  }
+}
+@media(max-width: 1023px)  
+{
+  .twitter_attr
+  {
+    height: 450px;
+  }
+}
+@media(max-width: 768px)  
+{
+  .twitter_attr
+  {
+    height: 350px;
+  }
 }
 
 
