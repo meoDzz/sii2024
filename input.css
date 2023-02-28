@@ -69,6 +69,16 @@ html,body{
   @apply tiny:mb-2 tiny:mt-7 md:mb-5 md:mt-7 lg:mb-7 lg:mt-9 whitespace-nowrap
 }
 
+.emailLogo
+{
+  @apply tiny:h-4 tiny:w-4 md:h-6 md:w-6 lg:w-4 lg:h-4 xl:w-6 xl:h-6 2xl:w-9 2xl:h-9 tiny:ml-0 md:ml-8 lg:ml-5 xl:ml-5 2xl:ml-16
+}
+.twitterLogo
+{
+  @apply tiny:h-4 tiny:w-4 md:h-6 md:w-6 lg:w-4 lg:h-4 xl:w-6 xl:h-6 2xl:w-9 2xl:h-9 tiny:mr-0 md:ml-10 lg:mr-1.5 xl:mr-5 2xl:mr-16
+}
+
+
 /* Main content */
 .mainCont {
   margin-top: 50px; /* Add a top margin to avoid content overlay */
