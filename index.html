@@ -11,7 +11,7 @@
   <!-- <link rel="icon" type="image/png" href="Image/LogoSII2024/icon-min.png"> -->
 
   <title>SII2024</title>
-  
+
   <link href="build.css" type="text/css" rel="stylesheet">
   <link href="input.css" type="text/css" rel="stylesheet">
   <link href="output.css" type="text/css" rel="stylesheet">
@@ -27,22 +27,25 @@
 
 
 <body>
-  <button onclick="topFunction()" class="tiny:text-[10px] md:text-[15px] font-bold" id="myBtn" title="Go to top" >
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <button onclick="topFunction()" class="tiny:text-[10px] md:text-[15px] font-bold" id="myBtn" title="Go to top">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+      class="w-6 h-6">
       <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />
     </svg>
   </button>
-  
+
   <div id="root">
     <div>
       <header class=" bg-slate-300 font-Karla">
-        <nav  class="flex flex-row items-center relative uppercase lg:navStatic">
-          <div class="flex justify-center max-w-full lg:basis-2/6 tiny:basis-4/6 tiny:text-[13px] sm:text-[15px] md:text-[17px] lg:text-[15px] xl:text-[24px] md:my-2 tiny:my-1">       
+        <nav class="flex flex-row items-center relative uppercase lg:navStatic">
+          <div
+            class="flex justify-center max-w-full lg:basis-2/6 tiny:basis-4/6 tiny:text-[13px] sm:text-[15px] md:text-[17px] lg:text-[15px] xl:text-[24px] md:my-2 tiny:my-1">
             <!-- <p class="animate-charcter text-center">  IEEE/SICE SII2024</p>    -->
-            <a href="#" class="whitespace-nowrap animate-charcter text-center">IEEE/SICE SII2024</a>        
+            <a href="#" class="whitespace-nowrap animate-charcter text-center">IEEE/SICE SII2024</a>
           </div>
-          
-          <ul id="SII2024-top-menu" class="hidden lg:toggleMenu lg:flex lg:justify-center lg:items-start lg:gap-3 lg:basis-3/6  font-bold Text-menu">
+
+          <ul id="SII2024-top-menu"
+            class="hidden lg:toggleMenu lg:flex lg:justify-center lg:items-start lg:gap-3 lg:basis-3/6  font-bold Text-menu">
             <li class="SII2024-top-menu-item lg:pr-1.5 lg:border-r-[1px] lg:border-gray-800">
               <a href="./page/committee.html" class="whitespace-nowrap">Organizing Committee</a>
             </li>
@@ -68,475 +71,541 @@
             </li>
             <li class="lg:pr-1.5 lg:border-r-[1px] lg:border-gray-800">
               <a href="" class="SII2024-top-menu-item whitespace-nowrap dropbtn">Invited Speakers</a>
-              
+
             </li>
             <li class="lg:pr-1.5 lg:border-r-[1px] lg:border-gray-800">
-              <a class="SII2024-top-menu-item whitespace-nowrap dropbtn" href="" >Local-infor</a>  
+              <a class="SII2024-top-menu-item whitespace-nowrap dropbtn" href="">Local-infor</a>
               <ul class="dropdown capitalize">
                 <li class="hover:text-orange-700 "><a href="./page/SubPage/Venue.html">Venue</a></li>
                 <li class="hover:text-orange-700 "><a href="./page/SubPage/transportation.html">Transportation</a></li>
-                <li class="hover:text-orange-700 "><a href="./page/SubPage/Visa.html">Visa</a></li>             
+                <li class="hover:text-orange-700 "><a href="./page/SubPage/Visa.html">Visa</a></li>
                 <!-- <li class="hover:text-orange-700 "><a href="./page/localInfor.html">Accomodation</a></li> -->
-                <li class="hover:text-orange-700 "><a href="./page/SubPage/touristAttraction.html">Tourist Attractions</a></li>
+                <li class="hover:text-orange-700 "><a href="./page/SubPage/touristAttraction.html">Tourist
+                    Attractions</a></li>
               </ul>
             </li>
-          </ul> 
+          </ul>
 
-          <ul class="flex  basis-1/6 max-w-full text-blue-900">          
-            <!-- <div class="flex justify-end basis-1/2 cursor-pointer">
-              <li class="flex items-baseline">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="tiny:h-4 tiny:w-4 md:h-6 md:w-6" >
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-                </svg>               
-              </li>            
-            </div> -->
-
+          <ul class="flex  basis-1/6 max-w-full text-blue-900">
             <div class="flex justify-end basis-1/2">
-              <li class="emailLogo">            
-                <a href="./index.html#Email"> 
+              <li class="emailLogo">
+                <a href="./index.html#Email">
                   <img src="Image/Logo-Top-Menu/Email.png">
                 </a>
               </li>
             </div>
             <div class="flex justify-end basis-1/2 items-center">
-              <li class="twitterLogo">            
-                <a href="https://twitter.com/SII2024_HaLong"> 
+              <li class="twitterLogo">
+                <a href="https://twitter.com/SII2024_HaLong">
                   <img src="Image/Logo-Top-Menu/Twistter.png">
                 </a>
               </li>
-            </div>  
-                     
+            </div>
+
           </ul>
 
           <div class="flex items-center lg:hidden basis-1/6 tiny:justify-center md:justify-center cursor-pointer">
-            <svg id="SII2024-toggle-top-menu-icon" xmlns="http://www.w3.org/2000/svg" class="w-7 h-7"
-              fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <svg id="SII2024-toggle-top-menu-icon" xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none"
+              viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>
-          </div>     
+          </div>
         </nav>
 
       </header>
 
 
+
+
       <div class=" ">
-          <div class="flex justify-center mt-5">
-            <img src="Image/LogoSII2024/LogoSII2024.png" class="tiny:w-[45%] sm:w-[25%] md:w-[27%] lg:w-[20%]" >          
-          </div>
-          <div class="flex justify-center text-center max-w-full font-Karla tiny:mx-[10px] tiny:text-[12px]
-           sm:text-[18px] md:text-[18px] lg:text-[20px] xl:text-[25px] mb-4 font-semibold">       
-            <p>The 2024 16th IEEE/SICE International Symposium on System Integration 
-              <br> Ha Long, Vietnam 8-11<sup>th</sup> January, 2024
-            </p>           
-          </div>        
+        <div class="flex justify-center mt-5">
+          <img src="Image/LogoSII2024/LogoSII2024.png" class="tiny:w-[45%] sm:w-[25%] md:w-[27%] lg:w-[20%]">
+        </div>
+        <div class="flex justify-center text-center max-w-full font-Karla tiny:mx-[10px] tiny:text-[12px]
+           sm:text-[18px] md:text-[18px] lg:text-[20px] xl:text-[25px] mb-4 font-semibold">
+          <p>The 2024 16th IEEE/SICE International Symposium on System Integration
+            <br> Ha Long, Vietnam 8-11<sup>th</sup> January, 2024
+          </p>
         </div>
       </div>
-      
-      <div>
-        <img src="Image/HaLong/Halong2cut.jpg" background-repeat="no-repeat” background-size="cover”>
-      </div>
-      <div class="mx-auto flex justify-center tiny:scale-[0.6] sm:scale-[0.8]">
-        <img src="Image/Sponsor/Sponsors.jpg" background-repeat="no-repeat” background-size="cover”>
-      </div>
+    </div>
+
+    <!-- <div class="testNe">
+      <h1 class="slide-in">Tiêu đề của bạn ở đây</h1>
+    </div> -->
+    <div>
+      <img src="Image/HaLong/Halong2cut.jpg" background-repeat="no-repeat” background-size=" cover”>
+    </div>
+    <div class="mx-auto flex justify-center tiny:scale-[0.6] sm:scale-[0.8]">
+      <img src="Image/Sponsor/Sponsors.jpg" background-repeat="no-repeat” background-size=" cover”>
+    </div>
 
 
 
-      <main class="mainCont">  
-        
-        <div class="SII2024 information">
-          <div class="flex justify-start items-center tiny:px-2 sm:px-30 md:px-40 md:py-5">
-            <div class="">
-             <div class="text-center tiny:text-[16px] sm:text-[22px] md:text-[26px] tiny:mb-2 md:mb-4 font-Karla font-bold tiny:mx-10 "> 
+    <main class="mainCont">
+
+      <div class="SII2024 information">
+        <div class="flex justify-start items-center tiny:px-2 sm:px-30 md:px-40 md:py-5">
+          <div class="">
+            <div
+              class="text-center tiny:text-[16px] sm:text-[22px] md:text-[26px] tiny:mb-2 md:mb-4 font-Karla font-bold tiny:mx-10 ">
               The 2024 IEEE/SICE International Symposium on
-                System Integration (SII2024) </div>
-              <div class="text-gray-700 text-justify tiny:mx-10 font-Karla tiny:text-[12px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px]">
-                IEEE/SICE SII is the premier symposium series presenting the state of the art and future perspectives of
-                system integration, where industrial experts, researchers, and academics share ideas and experiences
-                surrounding frontier technologies, breakthrough and innovative solutions and applications.
-                <br class="mx-20"> The 2024 IEEE/SICE International Symposium on System Integration (SII 2024) will be
-                the 16th symposium on system integration. System integration is one of the key technologies and the
-                integration of hardware and software is especially important to solve the industrial or social system
-                problems in the new century. This symposium focuses towards new research and industrial application of
-                system integration, and discusses approach and methodologies to improve effectiveness of system
-                integration.
-              </div>
-
-
+              System Integration (SII2024) </div>
+            <div
+              class="text-gray-700 text-justify tiny:mx-10 font-Karla tiny:text-[12px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px]">
+              IEEE/SICE SII is the premier symposium series presenting the state of the art and future perspectives of
+              system integration, where industrial experts, researchers, and academics share ideas and experiences
+              surrounding frontier technologies, breakthrough and innovative solutions and applications.
+              <br class="mx-20"> The 2024 IEEE/SICE International Symposium on System Integration (SII 2024) will be
+              the 16th symposium on system integration. System integration is one of the key technologies and the
+              integration of hardware and software is especially important to solve the industrial or social system
+              problems in the new century. This symposium focuses towards new research and industrial application of
+              system integration, and discusses approach and methodologies to improve effectiveness of system
+              integration.
             </div>
+
+
           </div>
         </div>
-        <!--End story -->
+      </div>
 
-        <!-- <div class="SII2024 information">
-          <div class="flex justify-start items-center md:px-40  md:py-5">
-            <div class="">
-              <div class="text-center text-2xl mb-6 font-Karla font-bold tiny:mx-10"> Welcome Message from the Conference Chairs
-              </div>
-              <div class="text-gray-700 leading-7 mb-6 text-justify tiny:mx-10">
 
-                IEEE/SICE SII is the premier symposium series presenting the state of the art and future perspectives of
-                system integration, where industrial experts, researchers, and academics share ideas and experiences
-                surrounding frontier technologies, breakthrough and innovative solutions and applications.
-                <br class="mx-20"> The 2024 IEEE/SICE International Symposium on System Integration (SII 2024) will be
-                the 16th symposium on system integration. System integration is one of the key technologies and the
-                integration of hardware and software is especially important to solve the industrial or social system
-                problems in the new century. This symposium focuses towards new research and industrial application of
-                system integration, and discusses approach and methodologies to improve effectiveness of system
-                integration.
-              </div>
-              <div class="">
-                <a href="#"
-                  class="font-semibold underline underline-offset-8 text-yellow-700  hover:text-yellow-600 relative after:absolute after:bottom-2 after:left-0 
-                after:text-yellow-500 hover:after:text-yellow-500 after:h-0.5 after:w-full after:transition-all after:ease-in-out">
-                  Read more</a>
-              </div>
-            </div>
-          </div>
-        </div> -->
-        <!--End story -->
+      <div class="Text-subHeader Text-subHeader-margin flex justify-center items-center ">
+        <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black max-w-full"></div>
 
-        <!-- <div class="SII2024-subHeadLine flex justify-center items-center mb-20">
-          <div class="SII2024-subHeadLine-deco-line w-8 h-px bg-black"></div>
-          <div class="SII2024-subHeadLine-label uppercase mx-4 tracking-widest text-gray-600 font-Karla text-[16px]">
-            News</div>
-          <div class="SII2024-subHeadLine-deco-line w-8 h-px bg-black"></div>
-        </div> -->
-        <div class="Text-subHeader Text-subHeader-margin flex justify-center items-center ">
-          <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black max-w-full"></div>
-
-          <div class="SII2024-subHeadLine-label uppercase mx-4 tracking-widest text-gray-600 ">
-            <p>News </p>
-          </div>
-
-          <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black"></div>
+        <div class="SII2024-subHeadLine-label uppercase mx-4 tracking-widest text-gray-600 ">
+          <p>News </p>
         </div>
 
-        <div class="News-class justify-start">
-          <div class="content"> 
-              <div class="uppercase">Call for paper</div>  
-              <img src="Image/HaLong/Halong2.jpg" class="w-40 h-35 object-cover">
-              <div class="text-[15px] text-blue-900 font-Karla font-bold mt-5 px-1">
-                The call for paper is avaliable now. <p>(Update date: 26-Nov-2022)</p>  
-                <a href="./index.html#callForPaper" class="font-semibold flex items-center
+        <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black"></div>
+      </div>
+
+      <div class="News-class justify-start">
+        <div class="content">
+          <div class="uppercase text-red-600 font-bold">Paperplaza</div>
+          <img src="Image/HaLong/Halong4.jpg" class="w-40 h-35 object-cover">
+          <div class="text-[15px] text-blue-900 font-Karla font-bold mt-5 px-1">
+            Paperplaza is ready for receiving the submission<p>(Update date:
+              13-Mar-2023)</p>
+          </div>
+          <a href="https://ras.papercept.net/conferences/scripts/start.pl" class="font-semibold flex items-center
+          underline underline-offset-2 text-yellow-700  hover:text-yellow-600">See more</a>
+        </div>
+
+
+        <div class="content">
+          <div class="uppercase">Call for paper</div>
+          <img src="Image/HaLong/Halong2.jpg" class="w-40 h-35 object-cover">
+          <div class="text-[15px] text-blue-900 font-Karla font-bold mt-5 px-1">
+            The call for paper is avaliable now. <p>(Update date: 26-Nov-2022)</p>
+            <a href="./index.html#callForPaper" class="font-semibold flex items-center
                 underline underline-offset-2 text-yellow-700  hover:text-yellow-600">See more</a>
-              </div>
           </div>
+        </div>
 
-          <div class="content"> 
-            <div class="uppercase">Special sessions</div>  
-            <img src="Image/HaLong/Halong3.jpg" class="w-40 h-35 object-cover">
-            <div class="text-[15px] text-blue-900 font-Karla font-bold mt-5">
-              Special sessions is updated. <p>(Update date: 26-Nov-2022)</p> 
-              <a href="./page/specialSessions.html" class="font-semibold flex items-center
+        <div class="content">
+          <div class="uppercase">Special sessions</div>
+          <img src="Image/HaLong/Halong3.jpg" class="w-40 h-35 object-cover">
+          <div class="text-[15px] text-blue-900 font-Karla font-bold mt-5">
+            Special sessions is updated. <p>(Update date: 26-Nov-2022)</p>
+            <a href="./page/specialSessions.html" class="font-semibold flex items-center
               underline underline-offset-2 text-yellow-700  hover:text-yellow-600">See more</a>
-            </div>
           </div>
-          <div class="content"><div class="uppercase">Committee</div>
-            <img src="Image/HaLong/Halong7.jpg" class="w-40 h-35 object-cover">
-            <div class="text-[15px] text-blue-900 font-Karla font-bold mt-5 px-1">
-              The committee has been formed.<p>(Update date: 13-Feb-2023)</p> 
-            </div>
-            <a href="./page/committee.html" class="font-semibold flex items-center
+        </div>
+        <div class="content">
+          <div class="uppercase">Committee</div>
+          <img src="Image/HaLong/Halong7.jpg" class="w-40 h-35 object-cover">
+          <div class="text-[15px] text-blue-900 font-Karla font-bold mt-5 px-1">
+            The committee has been formed.<p>(Update date: 13-Feb-2023)</p>
+          </div>
+          <a href="./page/committee.html" class="font-semibold flex items-center
             underline underline-offset-2 text-yellow-700  hover:text-yellow-600">See more</a>
+        </div>
+        <div class="content">
+          <div class="uppercase">Visa information</div>
+          <img src="Image/HaLong/Halong5.jpg" class="w-40 h-35 object-cover">
+          <div class="text-[15px] text-blue-900 font-Karla font-bold mt-5 px-1">
+            The visa information is updated.<p>(Update date: 26-Feb-2023)</p>
           </div>
-          <div class="content"><div class="uppercase">Visa information</div>
-            <img src="Image/HaLong/Halong5.jpg" class="w-40 h-35 object-cover">
-            <div class="text-[15px] text-blue-900 font-Karla font-bold mt-5 px-1">
-              The visa information is updated.<p>(Update date: 26-Feb-2023)</p> 
-            </div>
-            <a href="./page/SubPage/Visa.html" class="font-semibold flex items-center
+          <a href="./page/SubPage/Visa.html" class="font-semibold flex items-center
             underline underline-offset-2 text-yellow-700  hover:text-yellow-600">See more</a>
+        </div>
+        <div class="content">
+          <div class="uppercase">Tourist Attraction</div>
+          <img src="Image/HaLong/Halong4.jpg" class="w-40 h-35 object-cover">
+          <div class="text-[15px] text-blue-900 font-Karla font-bold mt-5 px-1">
+            Discover the beauty of Ha Long<p>(Update date: 26-Feb-2023)</p>
           </div>
-          <div class="content"><div class="uppercase">Tourist Attraction</div>
-            <img src="Image/HaLong/Halong4.jpg" class="w-40 h-35 object-cover">
-            <div class="text-[15px] text-blue-900 font-Karla font-bold mt-5 px-1">
-              Discover the beauty of Ha Long<p>(Update date: 26-Feb-2023)</p> 
-            </div>
-            <a href="./page/SubPage/touristAttraction.html"class="font-semibold flex items-center
+          <a href="./page/SubPage/touristAttraction.html" class="font-semibold flex items-center
             underline underline-offset-2 text-yellow-700  hover:text-yellow-600">See more</a>
+        </div>
+        <div class="content">
+          <div class="uppercase">Transportation</div>
+          <img src="Image/HaLong/Halong3.jpg" class="w-40 h-35 object-cover">
+          <div class="text-[15px] text-blue-900 font-Karla font-bold mt-5 px-1">
+            The way to Ha Long is now available<p>(Update date: 26-Feb-2023)</p>
           </div>
-          <div class="content"><div class="uppercase">Transportation</div>
-            <img src="Image/HaLong/Halong3.jpg" class="w-40 h-35 object-cover">
-            <div class="text-[15px] text-blue-900 font-Karla font-bold mt-5 px-1">
-              The way to Ha Long is now available<p>(Update date: 26-Feb-2023)</p> 
-            </div>
-            <a href="./page/SubPage/transportation.html"class="font-semibold flex items-center
+          <a href="./page/SubPage/transportation.html" class="font-semibold flex items-center
             underline underline-offset-2 text-yellow-700  hover:text-yellow-600">See more</a>
-          </div>
-          
         </div>
 
 
-        <div class="dates mx-auto w-[80%] mb-24 mt-10">
-          <div class="grid sm:grid-cols-2 tiny:justify-center sm:gap-8">
-            <div>
-              <div class="Text-subHeader Text-subHeader-margin flex justify-center items-center">
-                <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black max-w-full"></div>
 
-                <div class="uppercase mx-4 tracking-widest text-gray-600 
+      </div>
+
+
+      <div class="dates mx-auto w-[80%] mb-24 mt-10">
+        <div class="grid sm:grid-cols-2 tiny:justify-center sm:gap-8">
+          <div>
+            <div class="Text-subHeader Text-subHeader-margin flex justify-center items-center">
+              <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black max-w-full"></div>
+
+              <div class="uppercase mx-4 tracking-widest text-gray-600 
                  underline font-bold ">
-                  <p>Important Dates: </p>
-                </div>
-
-                <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black"></div>
+                <p>Important Dates: </p>
               </div>
-              <!--End featured-mugs" -->
 
-              <div class="tiny:p-1 sm:p-0 Text-contain  whitespace-nowrap">
-                <ul class="list-disc list-inside text-black dark:text-gray-400 ">                 
-                  <li>
-                    Proposals for Special Sessions
-                    <div class="grid tiny:grid-cols-2 sm:grid-rows-2 ">
-                      <ol class="list-inside">
-                        <li class="flex justify-start">Submission deadline:</li>
-                        <li class="flex justify-start">Notification of acceptance:</li>
-                      </ol>
-                      <ol class="list-inside">
-                        <li class="flex justify-end">June 30, 2023</li>
-                        <li class="flex justify-end">July 12, 2023</li>
-                      </ol>
-                    </div>
-                  </li>
-                  
-                  
-                  <li>
-                    Proposals for Workshops & Tutorials
-                    <div class="grid tiny:grid-cols-2 sm:grid-rows-2">
-                      <ol class="list-inside ">
-                        <li class="flex justify-start">Submission deadline:</li>
-                        <li class="flex justify-start">Notification acceptance:</li>
-                      </ol>
-                      <ol class="list-inside ">
-                        <li class="flex justify-end">July 29, 2023</li>
-                        <li class="flex justify-end">August 12, 2023</li>
-                      </ol>
-                    </div>
-                  </li>
+              <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black"></div>
+            </div>
+            <!--End featured-mugs" -->
 
-                  <li>
-                    Full papers (4-6 pages)
-                    <div class="grid tiny:grid-cols-2 sm:grid-rows-2 ">
-                      <ol class="list-inside ">
-                        <li class="flex justify-start">Submission deadline:</li>
-                        <li class="flex justify-start">Notification acceptance:</li>
-                        <li class="flex justify-start">Final paper submission:</li>
-                      </ol>
-                      <ol class="list-inside ">
-                        <li class="flex justify-end">August 1, 2023</li>
-                        <li class="flex justify-end">October 1, 2023</li>
-                        <li class="flex justify-end">October 15, 2023</li>
-                      </ol>
-                    </div>
-                  </li>
+            <div class="tiny:p-1 sm:p-0 Text-contain  whitespace-nowrap">
+              <ul class="list-disc list-inside text-black dark:text-gray-400 ">
+                <li>
+                  Proposals for Special Sessions
+                  <div class="grid tiny:grid-cols-2 sm:grid-rows-2 ">
+                    <ol class="list-inside">
+                      <li class="flex justify-start">Submission deadline:</li>
+                      <li class="flex justify-start">Notification of acceptance:</li>
+                    </ol>
+                    <ol class="list-inside">
+                      <li class="flex justify-end">June 30, 2023</li>
+                      <li class="flex justify-end">July 12, 2023</li>
+                    </ol>
+                  </div>
+                </li>
 
-                  <li>
-                    Video demonstration (2 pages)
-                    <div class="grid tiny:grid-cols-2 sm:grid-rows-2">
-                      <ol class="list-inside ">
-                        <li class="flex justify-start">Submission deadline:</li>
-                        <li class="flex justify-start">Notification acceptance:</li>
-                      </ol>
-                      <ol class="list-inside ">
-                        <li class="flex justify-end">August 5, 2023</li>
-                        <li class="flex justify-end">October 1, 2023</li>
-                      </ol>
-                    </div>
-                  </li>
 
-                  <li>
-                    Late breaking results (1 page)
-                    <div class="grid tiny:grid-cols-2 sm:grid-rows-2 ">
-                      <ol class="list-inside ">
-                        <li class="flex justify-start">Submission deadline:</li>
-                        <li class="flex justify-start">Notification acceptance:</li>
-                      </ol>
-                      <ol class="list-inside ">
-                        <li class="flex justify-end">October 15, 2023</li>
-                        <li class="flex justify-end">October 29, 2023</li>
-                      </ol>
-                    </div>
-                  </li>                  
-                </ul>
+                <li>
+                  Proposals for Workshops & Tutorials
+                  <div class="grid tiny:grid-cols-2 sm:grid-rows-2">
+                    <ol class="list-inside ">
+                      <li class="flex justify-start">Submission deadline:</li>
+                      <li class="flex justify-start">Notification acceptance:</li>
+                    </ol>
+                    <ol class="list-inside ">
+                      <li class="flex justify-end">July 29, 2023</li>
+                      <li class="flex justify-end">August 12, 2023</li>
+                    </ol>
+                  </div>
+                </li>
+
+                <li>
+                  Full papers (4-6 pages)
+                  <div class="grid tiny:grid-cols-2 sm:grid-rows-2 ">
+                    <ol class="list-inside ">
+                      <li class="flex justify-start">Submission deadline:</li>
+                      <li class="flex justify-start">Notification acceptance:</li>
+                      <li class="flex justify-start">Final paper submission:</li>
+                    </ol>
+                    <ol class="list-inside ">
+                      <li class="flex justify-end">August 1, 2023</li>
+                      <li class="flex justify-end">October 1, 2023</li>
+                      <li class="flex justify-end">October 15, 2023</li>
+                    </ol>
+                  </div>
+                </li>
+
+                <li>
+                  Video demonstration (2 pages)
+                  <div class="grid tiny:grid-cols-2 sm:grid-rows-2">
+                    <ol class="list-inside ">
+                      <li class="flex justify-start">Submission deadline:</li>
+                      <li class="flex justify-start">Notification acceptance:</li>
+                    </ol>
+                    <ol class="list-inside ">
+                      <li class="flex justify-end">August 5, 2023</li>
+                      <li class="flex justify-end">October 1, 2023</li>
+                    </ol>
+                  </div>
+                </li>
+
+                <li>
+                  Late breaking results (1 page)
+                  <div class="grid tiny:grid-cols-2 sm:grid-rows-2 ">
+                    <ol class="list-inside ">
+                      <li class="flex justify-start">Submission deadline:</li>
+                      <li class="flex justify-start">Notification acceptance:</li>
+                    </ol>
+                    <ol class="list-inside ">
+                      <li class="flex justify-end">October 15, 2023</li>
+                      <li class="flex justify-end">October 29, 2023</li>
+                    </ol>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div class="SII2024-subHeadLine flex justify-center items-center">
+              <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black max-w-full"></div>
+
+              <div class="Text-subHeader Text-subHeader-margin uppercase mx-4 tracking-widest text-gray-600 ">
+                <p>Location</p>
               </div>
+
+              <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black"></div>
             </div>
             <div>
-              <div class="SII2024-subHeadLine flex justify-center items-center">
-            <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black max-w-full"></div>
-
-            <div class="Text-subHeader Text-subHeader-margin uppercase mx-4 tracking-widest text-gray-600 ">
-              <p>Location</p>
-            </div>
-
-            <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black"></div>
-          </div>
-              <div>
-                <!-- <a href="https://halongbay.com.vn/en/">
+              <!-- <a href="https://halongbay.com.vn/en/">
                   <img src="Image/HaLong/Halong8.jpeg" alt=""
                     class="mb-5 hover:bg-gray-100 hover:opacity-90 hover:transition-all hover:ease-linear hover:duration-200">
                 </a> -->
-                <div class="map-responsive"> 
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?loop=1&list=PLWJ5y0BZXDqP3nS9K7sUypif6kKdRIIBF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                <p class="text-justify mt-4 Text-contain">
-                  <a href="https://whc.unesco.org/en/list/672/" class="font-semibold hover:text-blue-800"> Ha Long Bay </a> , in the Gulf of Tonkin, includes some 1,600 islands and islets, forming a spectacular
-                  seascape of limestone pillars. Because of their precipitous nature, most of the islands are
-                  uninhabited and unaffected by a human presence.
-                  The site's outstanding scenic beauty is complemented by its great biological interest.
-                </p>
+              <div class="map-responsive">
+                <iframe width="560" height="315"
+                  src="https://www.youtube.com/embed/videoseries?loop=1&list=PLWJ5y0BZXDqP3nS9K7sUypif6kKdRIIBF"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
+              <p class="text-justify mt-4 Text-contain">
+                <a href="https://whc.unesco.org/en/list/672/" class="font-semibold hover:text-blue-800"> Ha Long Bay
+                </a> , in the Gulf of Tonkin, includes some 1,600 islands and islets, forming a spectacular
+                seascape of limestone pillars. Because of their precipitous nature, most of the islands are
+                uninhabited and unaffected by a human presence.
+                The site's outstanding scenic beauty is complemented by its great biological interest.
+              </p>
 
-                <div class="mt-5">
-                  <a href="https://halongbay.com.vn/en/"
-                    class="font-semibold flex items-center underline underline-offset-8 text-yellow-700  hover:text-yellow-600 relative after:absolute after:bottom-2 after:left-0 
+              <div class="mt-5">
+                <a href="https://halongbay.com.vn/en/"
+                  class="font-semibold flex items-center underline underline-offset-8 text-yellow-700  hover:text-yellow-600 relative after:absolute after:bottom-2 after:left-0 
                   after:text-yellow-500 hover:after:text-yellow-500 after:h-0.5 after:w-full after:transition-all after:ease-in-out">
-                    See more here</a>
-                </div>
-                
-                <div class="map-responsive"> 
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d723352.7740728353!2d106.87150205135629!3d20.860364149211183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a5796518cee87%3A0x55c6b0bcc85478db!2zSOG6oSBMb25nIEJheQ!5e0!3m2!1sen!2sjp!4v1666106220537!5m2!1sen!2sjp"
-                    width="500px" height="400px" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-
+                  See more here</a>
               </div>
-              
+
+              <div class="map-responsive">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d723352.7740728353!2d106.87150205135629!3d20.860364149211183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a5796518cee87%3A0x55c6b0bcc85478db!2zSOG6oSBMb25nIEJheQ!5e0!3m2!1sen!2sjp!4v1666106220537!5m2!1sen!2sjp"
+                  width="500px" height="400px" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+
             </div>
-            
+
           </div>
+
         </div>
+      </div>
 
-        <div class="featured-mug w-[80%] mx-auto mt-24 mb-16">
-          
-          <!--End featured-mugs" -->
-          <div class="grid tiny:grid-cols-1 sm:grid-cols-2 gap-8">
-            <div>
-              <div class="Text-subHeader Text-subHeader-margin flex justify-center items-center">
-                <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black max-w-full"></div>
+      <div class="featured-mug w-[80%] mx-auto mt-24 mb-16">
 
-                <div id="callForPaper" class=" uppercase mx-4 tracking-widest text-gray-600 ">
-                  <p>Call for Paper:</p>
-                </div>
+        <!--End featured-mugs" -->
+        <div class="grid tiny:grid-cols-1 sm:grid-cols-2 gap-8">
+          <div>
+            <div class="Text-subHeader Text-subHeader-margin flex justify-center items-center">
+              <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black max-w-full"></div>
 
-                <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black"></div>
+              <div id="callForPaper" class=" uppercase mx-4 tracking-widest text-gray-600 ">
+                <p>Call for Paper:</p>
               </div>
-              <!--End featured-mugs" -->
 
-              <div class="flex justify-center  text-center">
-                <div class="tiny:w-[75%] sm:w-[75%] ">
-                  <div class=" flex justify-center items-center tiny:p-3 md:gap-5 md:p-2 bg-blue-200 hover:bg-blue-400  border-sky-300 hover:scale-[1.2] tiny:rounded-[5px] md:rounded-[14px]">
-                    <a href="Image/CFP/SII2024.pdf"  download>                     
-                      <p class="animate-Download tiny:text-[12px] sm:text-[15px] md:text-[17px] xl:text-[20px] tiny:flex tiny:text-center">Download Call for Paper</p>
-                    </a>
-                  </div>
-
-                  <img src="Image/CFP/CFP_SII2024.jpg">
-                </div>
-                
-              </div>
+              <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black"></div>
             </div>
-            <!-- Twitter area -->
-            <div >
-              <div class="flex justify-center items-center Text-subHeader-margin">
-                <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black max-w-full"></div>
+            <!--End featured-mugs" -->
 
-                <div id="callForPaper" class=" Text-subHeader uppercase mx-4 tracking-widest text-gray-600 
+            <div class="flex justify-center  text-center">
+              <div class="tiny:w-[75%] sm:w-[75%] ">
+                <div
+                  class=" flex justify-center items-center tiny:p-3 md:gap-5 md:p-2 bg-blue-200 hover:bg-blue-400  border-sky-300 hover:scale-[1.2] tiny:rounded-[5px] md:rounded-[14px]">
+                  <a href="Image/CFP/SII2024.pdf" download>
+                    <p
+                      class="animate-Download tiny:text-[12px] sm:text-[15px] md:text-[17px] xl:text-[20px] tiny:flex tiny:text-center">
+                      Download Call for Paper</p>
+                  </a>
+                </div>
+
+                <img src="Image/CFP/CFP_SII2024.jpg">
+              </div>
+
+            </div>
+          </div>
+          <!-- Twitter area -->
+          <div>
+            <div class="flex justify-center items-center Text-subHeader-margin">
+              <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black max-w-full"></div>
+
+              <div id="callForPaper" class=" Text-subHeader uppercase mx-4 tracking-widest text-gray-600 
                   Text-subHeader">
-                  <p>Twitter News:</p>
-                </div>
+                <p>Twitter News:</p>
+              </div>
 
-                <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black"></div>
-              </div>
-              <div class="text-center Text-subHeader mb-4  font-bold tiny:mx-10 text-blue-800">
-                <p> Follow us on Twitter !</p>
-              </div>
-              <div class="pb-5 flex justify-center items-center">
-                <div class=" tiny:h-8 tiny:w-8 md:h-12 md:w-12 ">  
-                    <a href="https://twitter.com/SII2024_HaLong"> 
-                      <img src="Image/Logo-Top-Menu/Twistter.png" class="">
-                    </a>                      
-                </div>         
-              </div>
-              <div class="">
-                <ul class="twitter_attr mx-auto">
-                  <li>
-                    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Join us at <a href="https://twitter.com/hashtag/SII2024?src=hash&amp;ref_src=twsrc%5Etfw">#SII2024</a> in <a href="https://twitter.com/hashtag/HaLong?src=hash&amp;ref_src=twsrc%5Etfw">#HaLong</a>, <a href="https://twitter.com/hashtag/Vietnam?src=hash&amp;ref_src=twsrc%5Etfw">#Vietnam</a> 🇻🇳! <br>With plenty of transportation options available, getting to the venue is a breeze. <br>➡️Check out our website for more details: <a href="https://t.co/huTWnqxHhF">https://t.co/huTWnqxHhF</a> <a href="https://t.co/HpPoZBNfq1">pic.twitter.com/HpPoZBNfq1</a></p>&mdash; SII2024 (@SII2024_HaLong) <a href="https://twitter.com/SII2024_HaLong/status/1632006002475147265?ref_src=twsrc%5Etfw">March 4, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                  </li>
-                  <li>               
-                  <blockquote    class=" twitter-tweet "><p lang="en" dir="ltr">Discover the beauty of <a href="https://twitter.com/hashtag/Vietnam?src=hash&amp;ref_src=twsrc%5Etfw">#Vietnam</a>!<br>From stunning landscapes to the rich culture and delicious cuisine, Vietnam is a must-visit destination.<br><br>Don&#39;t miss out on experiencing Vietnam while attending <a href="https://twitter.com/hashtag/SII2024?src=hash&amp;ref_src=twsrc%5Etfw">#SII2024</a>.<br><br>🇻🇳Discover more: <a href="https://t.co/oXJ8Xsl2Zg">https://t.co/oXJ8Xsl2Zg</a><br><br>Join us: <a href="https://t.co/Gi6E4rcP83">https://t.co/Gi6E4rcP83</a></p>&mdash; SII2024 (@SII2024_HaLong) <a href="https://twitter.com/SII2024_HaLong/status/1629864053278638080?ref_src=twsrc%5Etfw">February 26, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                  </li>
-                  <li   >
-                    <blockquote class="twitter-tweet "><p lang="en" dir="ltr">Take in the breathtaking view of <a href="https://twitter.com/hashtag/HaLong?src=hash&amp;ref_src=twsrc%5Etfw">#HaLong</a> Bay at dawn from the city! The highest peak, &quot;Bai Tho&quot; or Poem Mountain in English, is a symbol of <a href="https://twitter.com/hashtag/HaLong?src=hash&amp;ref_src=twsrc%5Etfw">#HaLong</a>.<br>Don&#39;t miss out on exploring the beauty of <a href="https://twitter.com/hashtag/HaLong?src=hash&amp;ref_src=twsrc%5Etfw">#HaLong</a> while attending <a href="https://twitter.com/hashtag/SII2024?src=hash&amp;ref_src=twsrc%5Etfw">#SII2024</a> <a href="https://twitter.com/hashtag/Vietnam?src=hash&amp;ref_src=twsrc%5Etfw">#Vietnam</a>. <a href="https://t.co/Jlz9tkV4aH">pic.twitter.com/Jlz9tkV4aH</a></p>&mdash; SII2024 (@SII2024_HaLong) <a href="https://twitter.com/SII2024_HaLong/status/1627353533988085760?ref_src=twsrc%5Etfw">February 19, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                  </li>
-                  <li   >
-                    <blockquote class=" twitter-tweet "><p lang="en" dir="ltr">Excited to be attending the <a href="https://twitter.com/hashtag/SII2024?src=hash&amp;ref_src=twsrc%5Etfw">#SII2024</a> conference in the stunning <a href="https://twitter.com/hashtag/HalongBay?src=hash&amp;ref_src=twsrc%5Etfw">#HalongBay</a>, Gulf of Tonkin, <a href="https://twitter.com/hashtag/Vietnam?src=hash&amp;ref_src=twsrc%5Etfw">#Vietnam</a>.<br>Looking forward to connecting with hardware and software integration experts to tackle industrial and social system problems in the new century.<br>🗓️8-11th January 2024. <a href="https://t.co/hmN28ReDUI">pic.twitter.com/hmN28ReDUI</a></p>&mdash; SII2024 (@SII2024_HaLong) <a href="https://twitter.com/SII2024_HaLong/status/1626454821673881600?ref_src=twsrc%5Etfw">February 17, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                  </li>
-                  <li  >
-                    <blockquote class=" twitter-tweet "><p lang="en" dir="ltr">Join us in system integration at <a href="https://twitter.com/hashtag/SII2024?src=hash&amp;ref_src=twsrc%5Etfw">#SII2024</a>!<br>Conference chair, Van Ho - Director Soft Haptics Lab <a href="https://twitter.com/lab_ho?ref_src=twsrc%5Etfw">@lab_ho</a> invites you to explore the latest advanced technology in <a href="https://twitter.com/hashtag/HaLong?src=hash&amp;ref_src=twsrc%5Etfw">#HaLong</a> <a href="https://twitter.com/hashtag/Vietnam?src=hash&amp;ref_src=twsrc%5Etfw">#Vietnam</a>.<br>Be inspired and explore the beauty of <a href="https://twitter.com/hashtag/HaLong?src=hash&amp;ref_src=twsrc%5Etfw">#HaLong</a>! Check it out: <a href="https://t.co/7v74E4xGOd">https://t.co/7v74E4xGOd</a> <a href="https://t.co/aSjgv5yA4K">pic.twitter.com/aSjgv5yA4K</a></p>&mdash; SII2024 (@SII2024_HaLong) <a href="https://twitter.com/SII2024_HaLong/status/1623370440914702347?ref_src=twsrc%5Etfw">February 8, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                  </li>
-                </ul>  
-              </div>
-                             
+              <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black"></div>
             </div>
-            <!-- update news 1-->
-            <!-- update news 2-->
-            <!-- update news 3 -->
-            <!-- new features 1 -->
-            <!-- add features 2 -->
-            <!-- add feature 3 -->
-            <!--End twitter area -->
-            
+            <div class="text-center Text-subHeader mb-4  font-bold tiny:mx-10 text-blue-800">
+              <p> Follow us on Twitter !</p>
+            </div>
+            <div class="pb-5 flex justify-center items-center">
+              <div class=" tiny:h-8 tiny:w-8 md:h-12 md:w-12 ">
+                <a href="https://twitter.com/SII2024_HaLong">
+                  <img src="Image/Logo-Top-Menu/Twistter.png" class="">
+                </a>
+              </div>
+            </div>
+            <div class="">
+              <ul class="twitter_attr mx-auto">
+                <li>
+                  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">📢Exciting news! <a href="https://twitter.com/hashtag/SII2024?src=hash&amp;ref_src=twsrc%5Etfw">#SII2024</a> <a href="https://twitter.com/hashtag/HALONG?src=hash&amp;ref_src=twsrc%5Etfw">#HALONG</a>, the first conference of 2024, is now accepting submissions on Paperplaza. <br>Don&#39;t miss out on this opportunity to share your research and connect with other experts in the field. Submit your paper your work at: <a href="https://t.co/ZFY7w3z5nW">https://t.co/ZFY7w3z5nW</a> <a href="https://t.co/CuOPAr8ezr">pic.twitter.com/CuOPAr8ezr</a></p>&mdash; SII2024 (@SII2024_HaLong) <a href="https://twitter.com/SII2024_HaLong/status/1635526648668856327?ref_src=twsrc%5Etfw">March 14, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </li>
+                <li>
+                  <blockquote class="twitter-tweet">
+                    <p lang="en" dir="ltr">Join us at <a
+                        href="https://twitter.com/hashtag/SII2024?src=hash&amp;ref_src=twsrc%5Etfw">#SII2024</a> in <a
+                        href="https://twitter.com/hashtag/HaLong?src=hash&amp;ref_src=twsrc%5Etfw">#HaLong</a>, <a
+                        href="https://twitter.com/hashtag/Vietnam?src=hash&amp;ref_src=twsrc%5Etfw">#Vietnam</a> 🇻🇳!
+                      <br>With plenty of transportation options available, getting to the venue is a breeze. <br>➡️Check
+                      out our website for more details: <a href="https://t.co/huTWnqxHhF">https://t.co/huTWnqxHhF</a> <a
+                        href="https://t.co/HpPoZBNfq1">pic.twitter.com/HpPoZBNfq1</a></p>&mdash; SII2024
+                    (@SII2024_HaLong) <a
+                      href="https://twitter.com/SII2024_HaLong/status/1632006002475147265?ref_src=twsrc%5Etfw">March 4,
+                      2023</a>
+                  </blockquote>
+                  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </li>
+                <li>
+                  <blockquote class=" twitter-tweet ">
+                    <p lang="en" dir="ltr">Discover the beauty of <a
+                        href="https://twitter.com/hashtag/Vietnam?src=hash&amp;ref_src=twsrc%5Etfw">#Vietnam</a>!<br>From
+                      stunning landscapes to the rich culture and delicious cuisine, Vietnam is a must-visit
+                      destination.<br><br>Don&#39;t miss out on experiencing Vietnam while attending <a
+                        href="https://twitter.com/hashtag/SII2024?src=hash&amp;ref_src=twsrc%5Etfw">#SII2024</a>.<br><br>🇻🇳Discover
+                      more: <a href="https://t.co/oXJ8Xsl2Zg">https://t.co/oXJ8Xsl2Zg</a><br><br>Join us: <a
+                        href="https://t.co/Gi6E4rcP83">https://t.co/Gi6E4rcP83</a></p>&mdash; SII2024 (@SII2024_HaLong)
+                    <a href="https://twitter.com/SII2024_HaLong/status/1629864053278638080?ref_src=twsrc%5Etfw">February
+                      26, 2023</a>
+                  </blockquote>
+                  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </li>
+                <li>
+                  <blockquote class="twitter-tweet ">
+                    <p lang="en" dir="ltr">Take in the breathtaking view of <a
+                        href="https://twitter.com/hashtag/HaLong?src=hash&amp;ref_src=twsrc%5Etfw">#HaLong</a> Bay at
+                      dawn from the city! The highest peak, &quot;Bai Tho&quot; or Poem Mountain in English, is a symbol
+                      of <a
+                        href="https://twitter.com/hashtag/HaLong?src=hash&amp;ref_src=twsrc%5Etfw">#HaLong</a>.<br>Don&#39;t
+                      miss out on exploring the beauty of <a
+                        href="https://twitter.com/hashtag/HaLong?src=hash&amp;ref_src=twsrc%5Etfw">#HaLong</a> while
+                      attending <a
+                        href="https://twitter.com/hashtag/SII2024?src=hash&amp;ref_src=twsrc%5Etfw">#SII2024</a> <a
+                        href="https://twitter.com/hashtag/Vietnam?src=hash&amp;ref_src=twsrc%5Etfw">#Vietnam</a>. <a
+                        href="https://t.co/Jlz9tkV4aH">pic.twitter.com/Jlz9tkV4aH</a></p>&mdash; SII2024
+                    (@SII2024_HaLong) <a
+                      href="https://twitter.com/SII2024_HaLong/status/1627353533988085760?ref_src=twsrc%5Etfw">February
+                      19, 2023</a>
+                  </blockquote>
+                  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </li>
+                <li>
+                  <blockquote class=" twitter-tweet ">
+                    <p lang="en" dir="ltr">Excited to be attending the <a
+                        href="https://twitter.com/hashtag/SII2024?src=hash&amp;ref_src=twsrc%5Etfw">#SII2024</a>
+                      conference in the stunning <a
+                        href="https://twitter.com/hashtag/HalongBay?src=hash&amp;ref_src=twsrc%5Etfw">#HalongBay</a>,
+                      Gulf of Tonkin, <a
+                        href="https://twitter.com/hashtag/Vietnam?src=hash&amp;ref_src=twsrc%5Etfw">#Vietnam</a>.<br>Looking
+                      forward to connecting with hardware and software integration experts to tackle industrial and
+                      social system problems in the new century.<br>🗓️8-11th January 2024. <a
+                        href="https://t.co/hmN28ReDUI">pic.twitter.com/hmN28ReDUI</a></p>&mdash; SII2024
+                    (@SII2024_HaLong) <a
+                      href="https://twitter.com/SII2024_HaLong/status/1626454821673881600?ref_src=twsrc%5Etfw">February
+                      17, 2023</a>
+                  </blockquote>
+                  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </li>
+                <li>
+                  <blockquote class=" twitter-tweet ">
+                    <p lang="en" dir="ltr">Join us in system integration at <a
+                        href="https://twitter.com/hashtag/SII2024?src=hash&amp;ref_src=twsrc%5Etfw">#SII2024</a>!<br>Conference
+                      chair, Van Ho - Director Soft Haptics Lab <a
+                        href="https://twitter.com/lab_ho?ref_src=twsrc%5Etfw">@lab_ho</a> invites you to explore the
+                      latest advanced technology in <a
+                        href="https://twitter.com/hashtag/HaLong?src=hash&amp;ref_src=twsrc%5Etfw">#HaLong</a> <a
+                        href="https://twitter.com/hashtag/Vietnam?src=hash&amp;ref_src=twsrc%5Etfw">#Vietnam</a>.<br>Be
+                      inspired and explore the beauty of <a
+                        href="https://twitter.com/hashtag/HaLong?src=hash&amp;ref_src=twsrc%5Etfw">#HaLong</a>! Check it
+                      out: <a href="https://t.co/7v74E4xGOd">https://t.co/7v74E4xGOd</a> <a
+                        href="https://t.co/aSjgv5yA4K">pic.twitter.com/aSjgv5yA4K</a></p>&mdash; SII2024
+                    (@SII2024_HaLong) <a
+                      href="https://twitter.com/SII2024_HaLong/status/1623370440914702347?ref_src=twsrc%5Etfw">February
+                      8, 2023</a>
+                  </blockquote>
+                  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </li>
+              </ul>
+            </div>
 
           </div>
+          <!-- update news 1-->
+          <!-- update news 2-->
+          <!-- update news 3 -->
+          <!-- new features 1 -->
+          <!-- add features 2 -->
+          <!-- add feature 3 -->
+          <!--End twitter area -->
+
+
         </div>
+      </div>
 
-        
 
-        <div class="pb-11">
-          <div class="SII2024-subHeadLine flex justify-center items-center mb-5 tiny:text-[15px] ">
-            <!-- <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black max-w-full"></div> -->
-  
-            <div class="SII2024-subHeadLine-label  mx-4 tracking-widest text-gray-600 
+
+      <div class="pb-11">
+        <div class="SII2024-subHeadLine flex justify-center items-center mb-5 tiny:text-[15px] ">
+          <!-- <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black max-w-full"></div> -->
+
+          <div class="SII2024-subHeadLine-label  mx-4 tracking-widest text-gray-600 
               font-Karla text-center sm:text-[17px] lg:text-[23px]">
-              <p class="uppercase"> Host Unversity</p>
-              <a href="https://vnu.edu.vn/eng/" class="hover:text-blue-700 capitalize">
-                <p> VNU-University of Engineering & Technology </p>
-              </a>
-              
-            </div>
-  
-            <!-- <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black"></div> -->
+            <p class="uppercase"> Host Unversity</p>
+            <a href="https://vnu.edu.vn/eng/" class="hover:text-blue-700 capitalize">
+              <p> VNU-University of Engineering & Technology </p>
+            </a>
+
           </div>
 
-          <div class="flex justify-center">
-              <img src="Image/HostUnversity/DaiHocCongNghiep.JPG" class="tiny:w-10 sm:w-20 lg:w-30" >  
-          </div>
-
-          
-          
-        </div>
-        
-       
-
-        
-
-        <div class="lg:mx-auto flex justify-center tiny:scale-[0.7] sm:scale-[0.7]">
-          <img src="Image/Sponsor/Sponsors.jpg" background-repeat="no-repeat” background-size="cover”>
-        </div>
-      </main>
-      
-
-      <footer class="w-full bg-slate-200 flex">
-        <div id="Email"  class="flex basis-1/2  justify-items-start  gap-4 mt-2 mb-2 mx-[5%] ">
-            <div class="font-bold text-blue-900 tiny:text-[9px] sm:text-[12px] md:text-[14px] lg:text-[16px] whitespace-nowrap">          
-              <p>The 2024 IEEE/SICE International Symposium on System Integration <br > Contact us: sii2024@ml.jaist.ac.jp</br> </p>
-            </div>
+          <!-- <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black"></div> -->
         </div>
 
-        
+        <div class="flex justify-center">
+          <img src="Image/HostUnversity/DaiHocCongNghiep.JPG" class="tiny:w-10 sm:w-20 lg:w-30">
+        </div>
 
-      </footer>
-    </div>
-    <!--End content-wrapper -->
+
+
+      </div>
+
+
+
+
+
+      <div class="lg:mx-auto flex justify-center tiny:scale-[0.7] sm:scale-[0.7]">
+        <img src="Image/Sponsor/Sponsors.jpg" background-repeat="no-repeat” background-size=" cover”>
+      </div>
+    </main>
+
+
+    <footer class="w-full bg-slate-200 flex">
+      <div id="Email" class="flex basis-1/2  justify-items-start  gap-4 mt-2 mb-2 mx-[5%] ">
+        <div
+          class="font-bold text-blue-900 tiny:text-[9px] sm:text-[12px] md:text-[14px] lg:text-[16px] whitespace-nowrap">
+          <p>The 2024 IEEE/SICE International Symposium on System Integration <br> Contact us:
+            sii2024@ml.jaist.ac.jp</br> </p>
+        </div>
+      </div>
+
+
+
+    </footer>
+  </div>
+  <!--End content-wrapper -->
   </div>
   <!--End root-->
 </body>
@@ -557,100 +626,95 @@
       slidesToShow: 5,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 2000,
-      
+      autoplaySpeed: 4000,
+
       responsive: [
         {
-        breakpoint: 1400,
-        settings: {
-          slidesToShow: 4,
-          dots: true,
-          //infinite: true,          
-        }
-        }, 
+          breakpoint: 1400,
+          settings: {
+            slidesToShow: 4,
+            dots: true,
+            //infinite: true,          
+          }
+        },
 
         {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          dots: true,
-          //infinite: true,          
-        }
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            dots: true,
+            //infinite: true,          
+          }
         },
         {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-          dots: true,
-          //infinite: true,          
-        }
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2,
+            dots: true,
+            //infinite: true,          
+          }
         },
         {
-        breakpoint: 450,
-        settings: {
-          slidesToShow: 1,
-          dots: true,
-          //infinite: true,          
-        }
+          breakpoint: 450,
+          settings: {
+            slidesToShow: 1,
+            dots: true,
+            //infinite: true,          
+          }
         },
       ]
     });
   }
   );
   $(document).ready(function () {
-    $('.SponsorSlick').slick({
+    $('.backgroundbanner').slick({
       dots: false,
       //infinite: true,
       slidesToShow: 5,
       slidesToScroll: 1,
       autoplay: false,
       autoplaySpeed: 3000,
-      
+
       responsive: [
         {
-        breakpoint: 1400,
-        settings: {
-          slidesToShow: 4,
-          dots: true,
-          //infinite: true,          
-        }
-        }, 
+          breakpoint: 1400,
+          settings: {
+            slidesToShow: 4,
+            dots: true,
+            //infinite: true,          
+          }
+        },
 
         {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 4,
-          dots: true,
-          //infinite: true,          
-        }
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 4,
+            dots: true,
+            //infinite: true,          
+          }
         },
         {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 4,
-          dots: true,
-          //infinite: true,          
-        }
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 4,
+            dots: true,
+            //infinite: true,          
+          }
         },
         {
-        breakpoint: 310,
-        settings: {
-          slidesToShow: 4,
-          dots: true,
-          //infinite: true,          
-        }
+          breakpoint: 310,
+          settings: {
+            slidesToShow: 4,
+            dots: true,
+            //infinite: true,          
+          }
         },
       ]
     });
   }
   );
-  $('.dropbtn').click(function()
-  {
+  $('.dropbtn').click(function () {
     $('.dropdown').toggleClass('display')
   }
   )
 </script>
-
-
-
-

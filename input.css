@@ -144,15 +144,34 @@ html,body{
   /* color: rgb(150, 8, 8); */
 }
 
-.contentSponsor {
-  /* width: 300px !important; */
-  height: 30px;
-  text-align: center;
-  border: 1px solid;
-  margin-top: 10;
-  border: none;
-  
-  /* color: rgb(150, 8, 8); */
+.testNe {
+  background-image: url('Image/HaLong/Halong2cut.jpg');
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-in {
+  animation-name: slide-in;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes slide-in {
+ 
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 /* .SII2024-top-menu-icon {
   @apply inline-block;
