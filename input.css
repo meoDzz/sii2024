@@ -58,27 +58,36 @@ html,body{
 }
 
 .Text-contain {
-  @apply font-Karla tiny:text-[12px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px]
+  @apply font-Karla tiny:text-[12px] sm:text-[15px] lg:text-[17px] 2xl:text-[25px]
 }
 .Text-contain-table {
   @apply font-Karla tiny:text-[12px] sm:text-[13px] lg:text-[15px] 2xl:text-[21px]
 }
 
 .Text-subHeader {
-  @apply font-Karla tiny:text-[16px] sm:text-[20px] lg:text-[22px] 2xl:text-[26px] 
+  @apply font-Karla tiny:text-[16px] sm:text-[20px] lg:text-[22px] 2xl:text-[28px] 
 }
 .Text-subHeader-margin
 {
   @apply tiny:mb-2 tiny:mt-7 md:mb-5 md:mt-7 lg:mb-7 lg:mt-9 whitespace-nowrap
 }
 
-.emailLogo
+/* .emailLogo
 {
   @apply tiny:h-4 tiny:w-4 md:h-6 md:w-6 lg:w-4 lg:h-4 xl:w-6 xl:h-6 2xl:w-9 2xl:h-9 tiny:ml-0 md:ml-8 lg:ml-5 xl:ml-5 2xl:ml-16
 }
 .twitterLogo
 {
   @apply tiny:h-4 tiny:w-4 md:h-6 md:w-6 lg:w-4 lg:h-4 xl:w-6 xl:h-6 2xl:w-9 2xl:h-9 tiny:mr-0 md:ml-10 lg:mr-1.5 xl:mr-5 2xl:mr-16
+} */
+
+.emailLogo
+{
+  @apply tiny:h-4 tiny:w-4 md:h-6 md:w-6 lg:w-4 lg:h-4 xl:w-6 xl:h-6 2xl:w-9 2xl:h-9
+}
+.twitterLogo
+{
+  @apply tiny:h-4 tiny:w-4 md:h-6 md:w-6 lg:w-4 lg:h-4 xl:w-6 xl:h-6 2xl:w-9 2xl:h-9 
 }
 
 
