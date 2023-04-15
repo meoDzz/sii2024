@@ -708,6 +708,14 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mt-7{
+  margin-top: 1.75rem;
+}
+
+.mt-36{
+  margin-top: 9rem;
+}
+
 .block{
   display: block;
 }
@@ -1430,7 +1438,7 @@ html,body{
 
 @media (min-width: 1536px){
   .Text-contain{
-    font-size: 25px;
+    font-size: 24px;
   }
 }
 
@@ -3065,10 +3073,6 @@ ul .dropdown
 
   .\32xl\:text-\[30px\]{
     font-size: 30px;
-  }
-
-  .\32xl\:text-\[25px\]{
-    font-size: 25px;
   }
 
   .\32xl\:text-\[21px\]{

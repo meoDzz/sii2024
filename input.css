@@ -58,7 +58,7 @@ html,body{
 }
 
 .Text-contain {
-  @apply font-Karla tiny:text-[12px] sm:text-[15px] lg:text-[17px] 2xl:text-[25px]
+  @apply font-Karla tiny:text-[12px] sm:text-[15px] lg:text-[17px] 2xl:text-[24px]
 }
 .Text-contain-table {
   @apply font-Karla tiny:text-[12px] sm:text-[13px] lg:text-[15px] 2xl:text-[21px]
