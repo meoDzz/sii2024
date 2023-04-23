@@ -71,6 +71,10 @@ html,body{
 {
   @apply tiny:mb-2 tiny:mt-7 md:mb-5 md:mt-7 lg:mb-7 lg:mt-9 whitespace-nowrap
 }
+.Text-menu
+{
+  @apply tiny:text-[13px] sm:text-[12px] md:text-[10px] xl:text-[13px] 2xl:text-[15px]
+}
 
 /* .emailLogo
 {
@@ -83,11 +87,11 @@ html,body{
 
 .emailLogo
 {
-  @apply tiny:h-4 tiny:w-4 md:h-6 md:w-6 lg:w-4 lg:h-4 xl:w-6 xl:h-6 2xl:w-9 2xl:h-9
+  @apply tiny:h-4 tiny:w-4 md:h-6 md:w-6 lg:w-4 lg:h-4 xl:w-6 xl:h-6 2xl:w-7 2xl:h-7
 }
 .twitterLogo
 {
-  @apply tiny:h-4 tiny:w-4 md:h-6 md:w-6 lg:w-4 lg:h-4 xl:w-6 xl:h-6 2xl:w-9 2xl:h-9 
+  @apply tiny:h-4 tiny:w-4 md:h-6 md:w-6 lg:w-4 lg:h-4 xl:w-6 xl:h-6 2xl:w-7 2xl:h-7 
 }
 
 
@@ -97,10 +101,7 @@ html,body{
   max-width: 1500px;
   margin: 0 auto; /* Center the container horizontally */
 }
-.Text-menu
-{
-  @apply tiny:text-[13px] sm:text-[12px] md:text-[10px] xl:text-[13px] 2xl:text-[20px]
-}
+
 .animate-Download {
   font:font-Karla;
   font-weight: 700;
