@@ -946,18 +946,9 @@ video {
   padding: 0.5rem;
 }
 
-.p-32{
-  padding: 8rem;
-}
-
 .px-1{
   padding-left: 0.25rem;
   padding-right: 0.25rem;
-}
-
-.px-44{
-  padding-left: 11rem;
-  padding-right: 11rem;
 }
 
 .py-3{
@@ -2412,14 +2403,14 @@ ul .dropdown
     padding-right: 1.75rem;
   }
 
-  .tiny\:px-5{
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
-
   .tiny\:px-4{
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .tiny\:px-5{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
   .tiny\:text-center{
