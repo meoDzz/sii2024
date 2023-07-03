@@ -49,7 +49,9 @@
   @apply tiny:w-[15%] sm:w-[7%] md:w-[10%]
 }
 
-
+.SII2024-subHeadLine-label{
+  @apply text-center
+}
 
 
 html,body{
@@ -449,6 +451,18 @@ ul .dropdown
     transform: translateX(-60%);
     text-align: left;
   }
+}
+
+.list-style-organizor{
+  list-style: none;
+  padding-left: 5px;
+}
+
+.list-style-organizor li::before{
+  content: '\2014';
+  position: absolute;
+  margin-left: -40px;
+  width: 10px;
 }
   
 
