@@ -508,3 +508,30 @@ ul .dropdown
 }
 
 
+/* image text */
+
+.image-box{
+  position: relative;
+  margin: 0;
+}
+.image-box >.img{
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+.image-text{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  bottom: 3vh;
+  max-width: auto;
+}
+.image-item{
+  width: 33.33vw;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  transition: color 2s ease;
+}
+.image-text p{
+  font-size: 20px;
+}
