@@ -508,30 +508,98 @@ ul .dropdown
 }
 
 
-/* image text */
+/* image  overlay text */
 
 .image-box{
   position: relative;
   margin: 0;
+  display: inline-block; /* Adjust display property as needed */
 }
-.image-box >.img{
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-}
+
 .image-text{
   position: absolute;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-basis: 100%;
-  bottom: 3vh;
+  bottom: 2vh;
   max-width: auto;
+  overflow: hidden;
+  z-index: 2;
 }
 .image-item{
-  width: 33.33vw;
+  width: 70vw;
   font-size: 24px;
   color: rgb(255, 255, 255);
-  transition: color 2s ease;
+  margin-left: 7vw;
+  animation-name: mymove;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 .image-text p{
   font-size: 20px;
 }
+
+@keyframes mymove {
+  from {margin-bottom: -15vh;}
+  to {margin-bottom: 0vw;}
+}
+
+@media screen and (max-width: 425px) {
+  .image-text > p {
+    font-size: 10px;
+    
+  }
+  .image-text {
+    bottom: 1vh;
+    font-weight: 700;
+  }
+}
+
+/* For screens between 426px and 1024px width*/
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .image-text > p {
+    font-size: 20px;
+  }
+  .image-text {
+    bottom: 1vh;
+    font-weight: 800;
+  }
+}
+
+/* For screens between 1025px and 2560px width */
+@media screen and (min-width: 1025px) and (max-width: 2560px) {
+  .image-text > p {
+    font-size: 35px;
+
+  }
+  .image-text {
+    bottom: 7vh;
+    font-weight: 900;
+  }
+} 
+
+/* box */
+.box {
+  display: block;
+  position: absolute;
+
+  animation-name: boxmove;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+
+.image-background-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right,rgba(255, 251, 251, 0.327), rgba(255, 255, 255, 0.05));
+  z-index: 1; 
+}
+
+@keyframes boxmove {
+  from { left: 0; }
+  to { left: calc(100% - 100px); }
+}
+
