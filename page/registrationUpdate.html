@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../Image/LogoSII2024/icon.ico">
+  <title>SII2024</title>
+
+  <link href="build.css" type="text/css" rel="stylesheet">
+  <link href="../input.css" type="text/css" rel="stylesheet">
+  <link href="../output.css" type="text/css" rel="stylesheet">
+  <link href="../page/page.css" type="text/css" rel="stylesheet">
+  <script src="../main.js" type="text/javascript" async> </script>
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+
+
+</head>
+
+<body>
+  <button onclick="topFunction()" class="tiny:text-[10px] md:text-[15px] font-bold" id="myBtn" title="Go to top">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+      class="w-6 h-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />
+    </svg>
+  </button>
+  <header class=" bg-slate-300 font-Karla">
+    <nav class="flex flex-row items-center relative uppercase lg:navStatic">
+      <div
+        class="flex justify-center max-w-full lg:basis-2/6 tiny:basis-4/6 tiny:text-[13px] sm:text-[15px] md:text-[17px] lg:text-[15px] xl:text-[24px] md:my-2 tiny:my-1">
+        <!-- <p class="animate-charcter text-center">  IEEE/SICE SII2024</p>    -->
+        <a href="../index.html" class="animate-charcter text-center"> IEEE/SICE SII2024</a>
+      </div>
+
+      <ul id="SII2024-top-menu"
+        class="hidden lg:toggleMenu lg:flex lg:justify-center lg:items-start lg:gap-3 lg:basis-3/6 text-[12px] font-bold Text-menu">
+        <li class="SII2024-top-menu-item pr-1.5 border-r-[1px] border-gray-800">
+          <a href="../page/committee.html" class="whitespace-nowrap">Organizing Committee</a>
+        </li>
+        <li class="lg:pr-1.5 lg:border-r-[1px] lg:border-gray-800">
+          <a href="" class="SII2024-top-menu-item whitespace-nowrap dropbtn">Call for Contribution</a>
+          <ul class="dropdown capitalize">
+            <li class="hover:text-orange-700 "><a href="../page/SubPage/callWorkshop.html">call for workshop</a></li>
+            <li class="hover:text-orange-700 "><a href="../page/SubPage/callJcmsiPaper.html">call for JCMSI paper</a>
+            </li>
+            <li class="hover:text-orange-700 "><a href="../page/SubPage/callVideoDemo.html">call for Video
+                demonstration</a></li>
+            <li class="hover:text-orange-700 "><a href="../page/SubPage/callLateBreaking.html">call for Late Breaking
+                Results</a></li>
+          </ul>
+        </li>
+        <li class="lg:pr-1.5 lg:border-r-[1px] lg:border-gray-800">
+          <a href="#" class="SII2024-top-menu-item whitespace-nowrap dropbtn">For Authors</a>
+          <ul class="dropdown capitalize">
+            <!-- <li class="hover:text-orange-700 "><a href="../page/SubPage/callPaper.html">Call for Paper</a></li> -->
+            <li class="hover:text-orange-700 "><a href="../page/authorInformation.html#PaperInformation">Call for
+                paper</a></li>
+            <li class="hover:text-orange-700 "><a href="../page/authorInformation.html#InitialSubmission">Submission
+                Procedure</a></li>
+            <li class="hover:text-orange-700 "><a href="../page/authorInformation.html#ImportantDates">Important
+                Dates</a></li>
+          </ul>
+        </li>
+        <li class="lg:pr-1.5 lg:border-r-[1px] lg:border-gray-800">
+          <a href="#" class="SII2024-top-menu-item whitespace-nowrap dropbtn">Special Sessions</a>
+          <ul class="dropdown capitalize">
+            <li class="hover:text-orange-700 "><a href="../page/SubPage/callSpecialSection.html">Call for Special
+                Sessions</a></li>
+            <li class="hover:text-orange-700 "><a href="../page/SubPage/ApprovalSpecialSession.html">Approved
+                Sessions</a></li>
+          </ul>
+        </li>
+
+        <li class="SII2024-top-menu-item pr-1.5 border-r-[1px] border-gray-800">
+          <a href="../page/program.html" class=" whitespace-nowrap">Program</a>
+        </li>
+        <li class="SII2024-top-menu-item pr-1.5 border-r-[1px] border-gray-800">
+          <a href="" class=" text-red-600">Registration</a>
+        </li>
+        <!-- <li class="SII2024-top-menu-item pr-1.5 border-r-[1px] border-gray-800">
+          <a href="../page/invitedSpeakers.html" class="whitespace-nowrap">Invited Speakers</a>
+        </li> -->
+        <li class="lg:pr-1.5 lg:border-r-[1px] lg:border-gray-800">
+          <a class="SII2024-top-menu-item whitespace-nowrap dropbtn" href="">Local-infor</a>
+          <ul class="dropdown capitalize">
+            <li class="hover:text-orange-700 "><a href="./SubPage/Venue.html">Venue</a></li>
+            <li class="hover:text-orange-700 "><a href="./SubPage/transportation.html">Transportation</a></li>
+            <li class="hover:text-orange-700 "><a href="./SubPage/Visa.html">Visa</a></li>
+            <li class="hover:text-orange-700 "><a href="./SubPage/Accomodation.html">Accomodation</a></li>
+            <li class="hover:text-orange-700 "><a href="./SubPage/touristAttraction.html">Tourist Attractions</a></li>
+          </ul>
+        </li>
+
+      </ul>
+
+
+      <ul class="flex basis-1/6 max-w-full text-blue-900">
+        <div class="flex tiny:basis-1/4 sm:basis-1/3 lg:basis-1/3">
+        </div>
+        <div class="flex tiny:basis-3/4 sm:basis-2/3 lg:basis-2/3">
+
+          <div class="flex basis-1/2">
+            <li class="emailLogo">
+              <a href="../index.html#Email">
+                <img src="../Image/Logo-Top-Menu/Email.png">
+              </a>
+            </li>
+          </div>
+          <div class="flex basis-1/2">
+            <li class="twitterLogo">
+              <a href="https://twitter.com/SII2024_HaLong">
+                <img src="../Image/Logo-Top-Menu/Twistter.png">
+              </a>
+            </li>
+          </div>
+        </div>
+      </ul>
+
+
+
+
+
+
+      <div class="flex items-center lg:hidden basis-1/6 tiny:justify-center md:justify-center cursor-pointer">
+        <svg id="SII2024-toggle-top-menu-icon" xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none"
+          viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </div>
+
+    </nav>
+
+  </header>
+  <div class=" ">
+    <div class="flex justify-center mt-5">
+      <img src="../Image/LogoSII2024/LogoSII2024.png" class="tiny:w-[20%] sm:w-[10%] md:w-[12%]">
+    </div>
+    <div class="flex justify-center text-center max-w-full font-Karla tiny:mx-[10px] tiny:text-[12px]
+         sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[17px] mb-4 font-semibold">
+      <p>The 2024 IEEE/SICE International Symposium on System Integration
+        <br> Ha Long, Vietnam 8-11<sup>th</sup> January, 2024
+      </p>
+    </div>
+  </div>
+
+  <div>
+    <img src="../Image/HaLong/Halong5cut.jpg" background-repeat="no-repeat” background-size=" cover”>
+  </div>
+
+  <div class="SII2024-subHeadLine flex justify-center items-center mt-10 mb-10 tiny:text-[15px] ">
+    <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black max-w-full"></div>
+
+    <div class="SII2024-subHeadLine-label uppercase mx-4 tracking-widest text-gray-600 
+            font-Karla text-center sm:text-[17px] lg:text-[20px]">
+      <p>Registration</p>
+    </div>
+    <div class="SII2024-subHeadLine-deco-line w-1/6 h-px bg-black"></div>
+  </div>
+
+
+
+
+  <main class="mainCont">
+    <div class="justify-start items-center md:px-40 md:py-5 mx-10 font-Karla ">
+
+      <!-- header -->
+      <div class="mb-20">
+        <p class="Text-subHeader">
+          <!-- REGISTRATION IS NOW OPEN SOON - PLEASE CLICK HERE TO REGISTER! -->
+          REGISTRATION IS NOW OPEN SOON
+        </p>
+        <p class="Text-contain" style="margin-top: 10px;">
+          If you have any questions regarding registration please email <span class=" underline underline-offset-2">
+            sii2024@ml.jaist.ac.jp </span>.
+        </p>
+
+        <div class="mt-10">
+          <p class="font-bold mt-5 Text-subHeader"> Important Dates </p>
+          <div class="font-semibold mt-1 Text-contain" style="display: flex; align-items: center;"> Registration Opens -
+            <p style="font-weight:400;"> Available soon</p>
+          </div>
+          <div class="font-semibold mt-1 Text-contain" style="display: flex; align-items: center;"> Author Registration
+            Deadline - <p style="font-weight:400;"> Available soon </p>
+          </div>
+          <div class="font-semibold mt-1 Text-contain" style="display: flex; align-items: center;"> Early Bird
+            Registration Deadline - <p style="font-weight:400;">Available soon </p>
+          </div>
+        </div>
+
+
+      </div>
+
+
+      <!-- Table contain -->
+
+      <div class="">
+        <div class="buttonContainer " id="toggleButtonRegistration1">
+
+            <button class="toggleButtonRegistration Text-subHeader font-bold">Registration for Authors </button>
+            <div id="toggleButtonArrow" class=" arrow-button"></div>
+        </div>
+        <div class="table-scroll1" style="max-height: 0px;" id="table-scroll1">
+          <p class=" Text-contain font-bold">
+            At least one author must attend the conference in person. You are not able to present virtually.
+          </p>
+
+
+          All presenting authors must be registered by 6th March 2023 (23:59 PST). Any authors who have not registered
+          by
+          March 6, 2023 or have papers exceeding the (6+n) page limit (excluding accepted RA-L, TRO, and RAM papers) in
+          the final submitted paper version, will have their paper removed from the programme and the proceedings.
+
+          In order to submit the final paper or video submission at least one author of each paper must register in
+          advance. Authors who pay a non-student registration fee are allowed to upload up to 2 contributions and all
+          other registrations are limited to one paper upload. Additional papers can be uploaded for a fee of £300.00.
+          Papers that do not respect the (6+n) page limit (excludes accepted RA-L, TRO, and RAM papers)
+          in the final submitted paper version will be removed from the program and the proceedings.
+          No exceptions will be made. One regular registration can be used to upload no more than two
+          papers and all associated attachments. If you are an author or co-author of a single contribution,
+          your registration cannot be shared or used for uploading a paper for which you are not an author.
+          One student registration can be used for upload of only one paper.
+        </div>
+
+      </div>
+
+
+      <div>
+        <div class="buttonContainer "id="toggleButtonRegistration2">
+          <button class="toggleButtonRegistration Text-subHeader font-bold" >Conference
+            Registration Fees</button>
+        </div>
+
+        <!-- Table to be shown/hidden -->
+        <div class="table-scroll2" style="max-height: 0px;" id="table-scroll2">
+          <table>
+            <!-- Table content here -->
+            <tr>
+              <td>Catergory</td>
+              <td>Early Bird</td>
+              <td>Standard</td>
+            </tr>
+            <tr>
+              <td>IEEE Life Member</td>
+              <td>Free</td>
+              <td>Free</td>
+            </tr>
+            <tr>
+              <td>IEEE Member </td>
+              <td>N/A</td>
+              <td>N/A</td>
+            </tr>
+            <tr>
+              <td>IEEE Student Member</td>
+              <td>N/A</td>
+              <td>N/A</td>
+            </tr>
+            <tr>
+              <td>Non-Member</td>
+              <td>N/A</td>
+              <td>N/A</td>
+            </tr>
+            <tr>
+              <td>Student Non-Member </td>
+              <td>N/A</td>
+              <td>N/A</td>
+            </tr>
+            <tr>
+              <td>Day Registration </td>
+              <td>N/A</td>
+              <td>N/A</td>
+            </tr>
+          </table>
+
+          <p class="mt-5">
+            *Conference fees are charged in GBP and are inclusive of VAT. Your registration is not complete until
+            payment has been received.
+
+            Your conference registration fee includes access to all content from 30th May - 1st June 2023, a ticket to
+            the social events, coffee breaks and lunch on conference days and a copy of the electronic proceedings.
+
+            The conference fees above DO NOT include access to the workshops taking place on 29th May and 2nd June.
+          </p>
+          <p>
+            *Virtual registration will give you access to the Workshops online through the InfoVaya Conference app.
+          </p>
+
+        </div>
+      </div>
+
+      <div class="">
+        <div class="buttonContainer " id="toggleButtonRegistration3">
+          <button class="toggleButtonRegistration Text-subHeader font-bold" >Visa Letter</button>
+
+        </div>
+
+        <!-- Table to be shown/hidden -->
+        <div class="table-scroll3" style="max-height: 0px;" id="table-scroll3">
+          Visa invitation letters will only be issued once registration is complete and paid for.
+
+          All visa requests must be submitted by the 11th May 2023.
+
+          To request a visa invitation letter, please follow the link in your registration confirmation email.
+
+          Please note the visa invitation letter does not exempt attendees from complying with all requirements
+          regarding
+          registration and payment for their participation, accommodation and travel. The ICRA Event Organisers take no
+          responsibility should entry be denied by the UK Government.
+
+          To check your Visa requirements, please visit, www.gov.uk/check-uk-visa.
+
+          Any cancellations due to Visa refusal will be refunded according the cancellation policy.
+
+          If you have any questions please email enquiries_icra2023@tfilodestar.com
+        </div>
+      </div>
+
+
+
+
+
+      <div>
+        <div class="buttonContainer " id="toggleButtonRegistration4">
+          <button class="toggleButtonRegistration Text-subHeader font-bold" >Payment Method </button>
+      
+        </div>
+      
+        <!-- Table to be shown/hidden -->
+        <div class="table-scroll4" style="max-height: 0px;" id="table-scroll4">
+
+            Registration fees must be paid in JPY by one of the following methods:
+            
+            ▋Credit Card – RECOMMENDED
+            For credit card payments, please use the JTB Registration System. The system is accessible with the password that you
+            received upon registration. The system accepts the following credit cards: MasterCard, Visa, JCB, Amex, and Diners Club.
+            
+            ▋Bank Transfer
+            Please contact our travel agency (JTB, see registration inquiries below) for a bank transfer.
+
+         
+        </div>
+      </div>
+
+      <div>
+        <div class="buttonContainer " id="toggleButtonRegistration5">
+          <button class="toggleButtonRegistration Text-subHeader font-bold" >Cancellation
+            Policy</button>
+      
+        </div>
+      
+        <!-- Table to be shown/hidden -->
+        <div class="table-scroll5" style="max-height: 0px;" id="table-scroll5">
+          <table>
+            Visa invitation letters will only be issued once registration is complete and paid for.
+      
+            All visa requests must be submitted by the 11th May 2023.
+      
+            To request a visa invitation letter, please follow the link in your registration confirmation email.
+      
+            Please note the visa invitation letter does not exempt attendees from complying with all requirements
+            regarding
+            registration and payment for their participation, accommodation and travel. The ICRA Event Organisers take
+            no
+            responsibility should entry be denied by the UK Government.
+      
+            To check your Visa requirements, please visit, www.gov.uk/check-uk-visa.
+      
+            Any cancellations due to Visa refusal will be refunded according the cancellation policy.
+      
+            If you have any questions please email enquiries_icra2023@tfilodestar.com
+          </table>
+        </div>
+      </div>
+
+
+      <div>
+        <div class="buttonContainer " id="toggleButtonRegistration6">
+          <button class="toggleButtonRegistration Text-subHeader font-bold" >Registration Inquiries</button>
+      
+        </div>
+      
+        <!-- Table to be shown/hidden -->
+        <div class="table-scroll6" style="max-height: 0px;" id="table-scroll6">
+          
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    // Reusable function to toggle table visibility
+    function toggleTableVisibility(buttonId, tableId) {
+      const toggleButton = document.getElementById(buttonId);
+      const tableContainer = document.getElementById(tableId);
+      const toggleButtonArrow = document.getElementById('toggleButtonArrow');
+
+      toggleButton.addEventListener('click', () => {
+        if (tableContainer.style.maxHeight === '0px' || !tableContainer.style.maxHeight) {
+          tableContainer.style.maxHeight = tableContainer.scrollHeight + 'px';
+        } else {
+          tableContainer.style.maxHeight = '0px';
+        }
+        toggleButtonArrow.classList.toggle('clicked');
+      } 
+
+
+      );
+    }
+
+    // Call the function for each button and table pair
+    toggleTableVisibility('toggleButtonRegistration1', 'table-scroll1');
+    toggleTableVisibility('toggleButtonRegistration2', 'table-scroll2');
+    toggleTableVisibility('toggleButtonRegistration3', 'table-scroll3');
+    toggleTableVisibility('toggleButtonRegistration4', 'table-scroll4');
+    toggleTableVisibility('toggleButtonRegistration5', 'table-scroll5');
+    toggleTableVisibility('toggleButtonRegistration6', 'table-scroll6');
+
+
+    // document.addEventListener("DOMContentLoaded", function () {
+    //     const toggleButtonArrow = document.getElementById('toggleButtonArrow');
+
+    //     toggleButtonArrow.addEventListener('click', () => {
+    //       toggleButtonArrow.classList.toggle('clicked');
+    //     });
+    //   });
+
+  </script>
+</body>
+
+<footer class="w-full bg-slate-200 flex">
+  <div class="flex basis-1/2  justify-items-start  gap-4 mt-2 mb-2 mx-[5%] ">
+    <div class="font-bold text-blue-900 tiny:text-[9px] sm:text-[12px] md:text-[14px] lg:text-[16px] whitespace-nowrap">
+      <p>The 2024 IEEE/SICE International Symposium on System Integration <br> Contact us: sii2024@ml.jaist.ac.jp</br>
+      </p>
+    </div>
+  </div>
+
+
+
+</footer>
+
+</html>
