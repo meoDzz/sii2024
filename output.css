@@ -696,6 +696,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mb-20{
+  margin-bottom: 5rem;
+}
+
 .mt-1{
   margin-top: 0.25rem;
 }
@@ -2145,19 +2149,19 @@ tr:nth-child(even) {
 /* width */
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 14px;
 }
 
 /* Track */
 
 ::-webkit-scrollbar-track {
-  background: #bba7a7;
+  background: #d1d1d1;
 }
 
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-  background: #5993df;
+  background: #4496e4;
 }
 
 /* Handle on hover */
