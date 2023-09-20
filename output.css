@@ -696,8 +696,8 @@ video {
   margin-bottom: 0.75rem;
 }
 
-.mb-20{
-  margin-bottom: 5rem;
+.mb-14{
+  margin-bottom: 3.5rem;
 }
 
 .mt-1{
@@ -991,6 +991,10 @@ video {
 
 .capitalize{
   text-transform: capitalize;
+}
+
+.italic{
+  font-style: italic;
 }
 
 .tracking-widest{
@@ -2130,9 +2134,11 @@ table {
 
 td,
 th {
-  border: 1px solid #c7bfbf;
+  border: 1px solid #ebe2e2;
   text-align: left;
   padding: 10px;
+  border-left: none;
+  border-right: none;
 }
 
 tr:nth-child(even) {
@@ -2189,12 +2195,13 @@ tr:nth-child(even) {
 }
 
 .buttonContainer {
-  display: flex;
   background-color: #92abe2;
   padding: 20px 20px;
   margin-bottom: 10px;
   cursor: pointer;
   justify-content: space-between;
+  display: flex;
+  align-items: center;
 }
 
 /* Style for the button */
@@ -2219,8 +2226,8 @@ tr:nth-child(even) {
 /* Style for the arrow button */
 
 .arrow-button {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   background-color: transparent;
   /* Transparent background */
   border: none;
