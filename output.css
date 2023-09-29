@@ -704,6 +704,10 @@ video {
   margin-top: 0.25rem;
 }
 
+.mt-3{
+  margin-top: 0.75rem;
+}
+
 .block{
   display: block;
 }
@@ -2136,7 +2140,7 @@ td,
 th {
   border: 1px solid #ebe2e2;
   text-align: left;
-  padding: 10px;
+  padding: 5px;
   border-left: none;
   border-right: none;
 }
