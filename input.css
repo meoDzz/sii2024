@@ -65,7 +65,7 @@ body {
 }
 
 .Text-contain-table {
-  @apply font-Karla tiny:text-[10px] sm:text-[12px] lg:text-[13px] 2xl:text-[15px]
+  @apply font-Karla tiny:text-[10px] sm:text-[12px] lg:text-[14px] 2xl:text-[17px]
 }
 
 .Text-subHeader {

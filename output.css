@@ -1385,13 +1385,13 @@ body {
 
 @media (min-width: 1024px){
   .Text-contain-table{
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 
 @media (min-width: 1536px){
   .Text-contain-table{
-    font-size: 15px;
+    font-size: 17px;
   }
 }
 
@@ -3163,8 +3163,8 @@ tr:nth-child(even) {
     font-size: 17px;
   }
 
-  .lg\:text-\[13px\]{
-    font-size: 13px;
+  .lg\:text-\[14px\]{
+    font-size: 14px;
   }
 
   .lg\:text-\[22px\]{
@@ -3287,6 +3287,10 @@ tr:nth-child(even) {
 
   .\32xl\:text-\[20px\]{
     font-size: 20px;
+  }
+
+  .\32xl\:text-\[17px\]{
+    font-size: 17px;
   }
 
   .\32xl\:text-\[15px\]{
