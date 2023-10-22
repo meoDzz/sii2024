@@ -906,6 +906,11 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-yellow-100{
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 249 195 / var(--tw-bg-opacity));
+}
+
 .bg-blue-200{
   --tw-bg-opacity: 1;
   background-color: rgb(191 219 254 / var(--tw-bg-opacity));
@@ -919,11 +924,6 @@ video {
 .bg-neutral-100{
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
-}
-
-.bg-yellow-100{
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 249 195 / var(--tw-bg-opacity));
 }
 
 .bg-pink-100{
@@ -1041,6 +1041,11 @@ video {
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
+.text-red-700{
+  --tw-text-opacity: 1;
+  color: rgb(185 28 28 / var(--tw-text-opacity));
+}
+
 .text-yellow-700{
   --tw-text-opacity: 1;
   color: rgb(161 98 7 / var(--tw-text-opacity));
@@ -1049,11 +1054,6 @@ video {
 .text-black{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.text-red-700{
-  --tw-text-opacity: 1;
-  color: rgb(185 28 28 / var(--tw-text-opacity));
 }
 
 .text-blue-800{
@@ -1094,6 +1094,10 @@ video {
 .line-through{
   -webkit-text-decoration-line: line-through;
           text-decoration-line: line-through;
+}
+
+.underline-offset-4{
+  text-underline-offset: 4px;
 }
 
 .underline-offset-2{
@@ -2477,6 +2481,11 @@ tr:nth-child(even) {
     margin-right: 2.5rem;
   }
 
+  .tiny\:mx-5{
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+
   .tiny\:mx-1{
     margin-left: 0.25rem;
     margin-right: 0.25rem;
@@ -2485,11 +2494,6 @@ tr:nth-child(even) {
   .tiny\:mx-2{
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-  }
-
-  .tiny\:mx-5{
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
   }
 
   .tiny\:mb-2{
@@ -2694,6 +2698,10 @@ tr:nth-child(even) {
     font-size: 16px;
   }
 
+  .tiny\:text-\[11px\]{
+    font-size: 11px;
+  }
+
   .tiny\:text-\[15px\]{
     font-size: 15px;
   }
@@ -2840,6 +2848,10 @@ tr:nth-child(even) {
 
   .sm\:text-\[14px\]{
     font-size: 14px;
+  }
+
+  .sm\:text-\[16px\]{
+    font-size: 16px;
   }
 
   .sm\:text-\[17px\]{
@@ -2997,9 +3009,9 @@ tr:nth-child(even) {
     padding-bottom: 1.25rem;
   }
 
-  .md\:px-20{
-    padding-left: 5rem;
-    padding-right: 5rem;
+  .md\:px-10{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .md\:px-24{
@@ -3007,14 +3019,19 @@ tr:nth-child(even) {
     padding-right: 6rem;
   }
 
+  .md\:py-2{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .md\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
   .md\:px-44{
     padding-left: 11rem;
     padding-right: 11rem;
-  }
-
-  .md\:px-10{
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
   }
 
   .md\:text-\[15px\]{
@@ -3031,6 +3048,10 @@ tr:nth-child(even) {
 
   .md\:text-\[26px\]{
     font-size: 26px;
+  }
+
+  .md\:text-\[20px\]{
+    font-size: 20px;
   }
 
   .md\:text-\[14px\]{
