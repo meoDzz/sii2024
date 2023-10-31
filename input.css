@@ -666,6 +666,44 @@ tr:nth-child(even) {
 
 }
 
+/* -------------------------- table program -----------------------------*/
+
+.tableProgram {
+  font-family: arial, sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  /* Center the table horizontally */
+}
+
+.tableProgram td,
+.tableProgram th {
+  border: 1px solid #4e4e4e23;
+  text-align: center;
+  padding: 5px;
+  border-left: none;
+  border-right: none;
+}
+
+.tableProgram tr:nth-child(even) {
+  background-color: #acd6f12a;
+}
+
+.tableProgram tr:first-child td:first-child {
+  width: 12%;
+  background-color: #d4d37d2a;
+  /* Adjust the width as needed */
+}
+
+.tableProgram tr:first-child td:first-child {
+  width: 12%;
+  background-color: #d4d37d2a;
+  /* Adjust the width as needed */
+}
+.tableProgram td,
+.tableProgram th {
+  border-left: 1px solid #f1c29559;
+  border-right: 1px solid #f1c29559;
+}
 /* ------------------------- scroll bar color ------------------------------*/
 
 /* width */
