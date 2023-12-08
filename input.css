@@ -241,6 +241,37 @@ body {
 
 }
 
+.singlePic
+{
+  width: 300px;
+  height: auto;
+  padding: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  .singlePic {
+    width: 100px;
+    padding: 5px;
+  }
+
+
+}
+
+/* For screens between 426px and 1024px width*/
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .singlePic{
+      width: 200px;
+  
+    }
+}
+
+/* For screens between 1025px and 2560px width */
+@media screen and (min-width: 1025px) and (max-width: 2560px) {
+  .singlePic {
+      width: 300px;
+  
+    }
+}
 
 
 .slick-slider .slick-prev,
@@ -579,6 +610,7 @@ ul .dropdown {
     bottom: 1vh;
     font-weight: 700;
   }
+
 }
 
 /* For screens between 426px and 1024px width*/
