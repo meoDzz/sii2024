@@ -268,8 +268,7 @@ body {
 /* For screens between 1025px and 2560px width */
 @media screen and (min-width: 1025px) and (max-width: 2560px) {
   .singlePic {
-      width: 300px;
-  
+      width: 270px;
     }
 }
 
