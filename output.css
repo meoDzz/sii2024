@@ -2085,7 +2085,7 @@ ul .dropdown {
   width: 70vw;
   font-size: 24px;
   color: rgb(255, 255, 255);
-  margin-left: 7vw;
+  margin-left: 14vw;
   -webkit-animation-name: mymove;
           animation-name: mymove;
   -webkit-animation-duration: 2s;
@@ -2097,7 +2097,7 @@ ul .dropdown {
 .image-slogan {
   width: 100vw;
   font-size: 24px;
-  color: rgb(230, 210, 36);
+  color: rgb(255, 255, 255);
   margin-left: -5vw;
   text-align: right;
   -webkit-animation-name: topToBottom;
@@ -2128,13 +2128,13 @@ ul .dropdown {
 
   50% {
     bottom: 25%;
-    background-color: #a5dbff33;
+    background-color: #a5dbff00;
     /* Move halfway across the screen */
   }
 
   100% {
     bottom: 0;
-    background-color: #a5dbff81;
+    background-color: #a5dbff00;
     /* Stop at the left edge */
   }
 }
@@ -2148,13 +2148,13 @@ ul .dropdown {
 
   50% {
     bottom: 25%;
-    background-color: #a5dbff33;
+    background-color: #a5dbff00;
     /* Move halfway across the screen */
   }
 
   100% {
     bottom: 0;
-    background-color: #a5dbff81;
+    background-color: #a5dbff00;
     /* Stop at the left edge */
   }
 }
@@ -2257,7 +2257,7 @@ ul .dropdown {
   }
 
   .moving-rectangle {
-    height: 10vw;
+    height: 15vw;
   }
 
   .image-text {

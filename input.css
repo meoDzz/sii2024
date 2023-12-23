@@ -579,7 +579,7 @@ ul .dropdown {
   width: 70vw;
   font-size: 24px;
   color: rgb(255, 255, 255);
-  margin-left: 7vw;
+  margin-left: 14vw;
   animation-name: mymove;
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
@@ -588,7 +588,7 @@ ul .dropdown {
 .image-slogan {
   width: 100vw;
   font-size: 24px;
-  color: rgb(230, 210, 36);
+  color: rgb(255, 255, 255);
   margin-left: -5vw;
   text-align: right;
   animation-name: topToBottom;
@@ -616,13 +616,13 @@ ul .dropdown {
 
   50% {
     bottom: 25%;
-    background-color: #a5dbff33;
+    background-color: #a5dbff00;
     /* Move halfway across the screen */
   }
 
   100% {
     bottom: 0;
-    background-color: #a5dbff81;
+    background-color: #a5dbff00;
     /* Stop at the left edge */
   }
 }
@@ -692,7 +692,7 @@ ul .dropdown {
 
   }
   .moving-rectangle {
-    height: 10vw;
+    height: 15vw;
   }
   .image-text {
     bottom: 7vh;
