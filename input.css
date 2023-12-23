@@ -585,10 +585,60 @@ ul .dropdown {
   animation-timing-function: ease-in-out;
 }
 
+.image-slogan {
+  width: 100vw;
+  font-size: 24px;
+  color: rgb(230, 210, 36);
+  margin-left: -5vw;
+  text-align: right;
+  animation-name: topToBottom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+
+.moving-rectangle {
+  width: 45vw;
+  
+  right: 0vw;
+  /* background-color: #a5dbff63; */
+  position: absolute;
+  animation: moveRightToLeft 2s linear forwards;
+    /* Fade in after 2 seconds */
+  /* Using forwards to keep the final state */
+}
+
+@keyframes moveRightToLeft {
+  0% {
+    bottom: 50%;
+    background-color: #ffffff00;
+    /* Start position, move from right */
+  }
+
+  50% {
+    bottom: 25%;
+    background-color: #a5dbff33;
+    /* Move halfway across the screen */
+  }
+
+  100% {
+    bottom: 0;
+    background-color: #a5dbff81;
+    /* Stop at the left edge */
+  }
+}
+
 .image-text p {
   font-size: 20px;
 }
+@keyframes topToBottom {
+  from {
+    margin-top: -15vh;
+  }
 
+  to {
+    margin-bottom: 0vw;
+  }
+}
 @keyframes mymove {
   from {
     margin-bottom: -15vh;
@@ -599,10 +649,19 @@ ul .dropdown {
   }
 }
 
+@keyframes appear {
+  to {
+    opacity: 1;
+    /* Set opacity to 1 to make the rectangle visible */
+  }
+}
 @media screen and (max-width: 425px) {
   .image-text>p {
-    font-size: 10px;
-
+    font-size: 8px;
+    
+  }
+  .moving-rectangle{
+    height: 10vw;
   }
 
   .image-text {
@@ -615,9 +674,11 @@ ul .dropdown {
 /* For screens between 426px and 1024px width*/
 @media screen and (min-width: 426px) and (max-width: 1024px) {
   .image-text>p {
-    font-size: 20px;
+    font-size: 15px;
   }
-
+  .moving-rectangle {
+    height: 8vw;
+  }
   .image-text {
     bottom: 1vh;
     font-weight: 800;
@@ -630,7 +691,9 @@ ul .dropdown {
     font-size: 35px;
 
   }
-
+  .moving-rectangle {
+    height: 10vw;
+  }
   .image-text {
     bottom: 7vh;
     font-weight: 900;
